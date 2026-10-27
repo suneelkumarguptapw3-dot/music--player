@@ -1,0 +1,2154 @@
+ * Serving Flask app 'server'
+ * Debug mode: on
+[youtube:tab] Extracting URL: https://music.youtube.com/playlist?list=OLAK5uy_kouLEewd1gx9sI5BG6P5rZnRgAwThweCw
+[youtube:tab] OLAK5uy_kouLEewd1gx9sI5BG6P5rZnRgAwThweCw: Downloading webpage
+[youtube:tab] OLAK5uy_kouLEewd1gx9sI5BG6P5rZnRgAwThweCw: Redownloading playlist API JSON with unavailable videos
+[download] Downloading playlist: Album - TAMASHA
+[info] Playlist thumbnail is already present
+[youtube:tab] Playlist Album - TAMASHA: Downloading 9 items of 9
+[download] Downloading item 1 of 9
+[youtube] Extracting URL: https://music.youtube.com/watch?v=UFIV8ELiQvU
+[youtube] UFIV8ELiQvU: Downloading webpage
+[youtube] UFIV8ELiQvU: Downloading visionos player API JSON
+[youtube] UFIV8ELiQvU: Downloading m3u8 information
+[info] UFIV8ELiQvU: Downloading 1 format(s): 251
+[info] Downloading video thumbnail 41 ...
+[info] Writing video thumbnail 41 to: audio/UFIV8ELiQvU.webp
+[download] Sleeping 3.98 seconds ...
+[download] Destination: audio/UFIV8ELiQvU.webm
+[download]   0.0% of    5.66MiB at  479.13KiB/s ETA 00:12[download]   0.1% of    5.66MiB at  398.29KiB/s ETA 00:14[download]   0.1% of    5.66MiB at  455.68KiB/s ETA 00:12[download]   0.3% of    5.66MiB at  475.97KiB/s ETA 00:12[download]   0.5% of    5.66MiB at  485.36KiB/s ETA 00:11[download]   1.1% of    5.66MiB at  475.81KiB/s ETA 00:12[download]   2.2% of    5.66MiB at  489.06KiB/s ETA 00:11[download]   4.4% of    5.66MiB at  491.89KiB/s ETA 00:11[download]   8.8% of    5.66MiB at  494.33KiB/s ETA 00:10[download]  17.4% of    5.66MiB at  495.85KiB/s ETA 00:09[download]  26.0% of    5.66MiB at  499.18KiB/s ETA 00:08[download]  34.7% of    5.66MiB at  499.19KiB/s ETA 00:07[download]  43.3% of    5.66MiB at  499.37KiB/s ETA 00:06[download]  52.0% of    5.66MiB at  499.61KiB/s ETA 00:05[download]  60.6% of    5.66MiB at  499.13KiB/s ETA 00:04[download]  69.2% of    5.66MiB at  499.31KiB/s ETA 00:03[download]  77.8% of    5.66MiB at  499.76KiB/s ETA 00:02[download]  86.5% of    5.66MiB at  499.67KiB/s ETA 00:01[download]  95.1% of    5.66MiB at  499.70KiB/s ETA 00:00[download] 100.0% of    5.66MiB at  499.76KiB/s ETA 00:00[download] 100% of    5.66MiB in 00:00:11 at 491.32KiB/s [download]   0.0% of   38.12MiB at  693.85KiB/s ETA 00:57
+
+
+
+
+Title: MATARGASHTI
+ID: UFIV8ELiQvU
+Duration: 328
+-------------- 200
+final lrc: 
+[download]   0.0% of   38.12MiB at  790.24KiB/s ETA 00:49[download]   0.0% of   38.12MiB at    1.02MiB/s ETA 00:37[download]   0.0% of   38.12MiB at    1.45MiB/s ETA 00:26[download]   0.1% of   38.12MiB at    1.63MiB/s ETA 00:23[download]   0.2% of   38.12MiB at    1.71MiB/s ETA 00:22[download]   0.3% of   38.12MiB at    1.82MiB/s ETA 00:20[download]   0.7% of   38.12MiB at    1.85MiB/s ETA 00:20[download]   1.3% of   38.12MiB at    1.88MiB/s ETA 00:19[download]   2.6% of   38.12MiB at    1.89MiB/s ETA 00:19[download]   5.2% of   38.12MiB at    1.94MiB/s ETA 00:18[download]  10.4% of   38.12MiB at    1.93MiB/s ETA 00:17[download]  15.5% of   38.12MiB at    1.94MiB/s ETA 00:16[download]  20.6% of   38.12MiB at    1.95MiB/s ETA 00:15[download]  25.7% of   38.12MiB at    1.94MiB/s ETA 00:14[download] Downloading item 2 of 9
+[youtube] Extracting URL: https://music.youtube.com/watch?v=9MaV5vwzxTQ
+[youtube] 9MaV5vwzxTQ: Downloading webpage
+[youtube] 9MaV5vwzxTQ: Downloading visionos player API JSON
+[youtube] 9MaV5vwzxTQ: Downloading m3u8 information
+[info] 9MaV5vwzxTQ: Downloading 1 format(s): 251
+[info] Downloading video thumbnail 41 ...
+[info] Writing video thumbnail 41 to: audio/9MaV5vwzxTQ.webp
+[download] Sleeping 4.95 seconds ...
+[download] Destination: audio/9MaV5vwzxTQ.webm
+[download]   0.0% of    5.57MiB at  474.31KiB/s ETA 00:12[download]   0.1% of    5.57MiB at  395.45KiB/s ETA 00:14[download]   0.1% of    5.57MiB at  381.90KiB/s ETA 00:14[download]   0.3% of    5.57MiB at  363.53KiB/s ETA 00:15[download]   0.5% of    5.57MiB at  459.19KiB/s ETA 00:12[download]   1.1% of    5.57MiB at  482.96KiB/s ETA 00:11[download]   2.2% of    5.57MiB at  490.20KiB/s ETA 00:11[download]   4.5% of    5.57MiB at  496.58KiB/s ETA 00:10[download]   9.0% of    5.57MiB at  495.58KiB/s ETA 00:10[download]  17.6% of    5.57MiB at  497.06KiB/s ETA 00:09[download]  26.4% of    5.57MiB at  497.31KiB/s ETA 00:08[download]  35.1% of    5.57MiB at  497.86KiB/s ETA 00:07[download]  43.9% of    5.57MiB at  499.32KiB/s ETA 00:06[download]  52.7% of    5.57MiB at  499.34KiB/s ETA 00:05[download]  61.5% of    5.57MiB at  499.61KiB/s ETA 00:04[download]  70.3% of    5.57MiB at  499.33KiB/s ETA 00:03[download]  79.0% of    5.57MiB at  499.64KiB/s ETA 00:02[download]  87.8% of    5.57MiB at  499.77KiB/s ETA 00:01[download]  96.6% of    5.57MiB at  499.71KiB/s ETA 00:00[download] 100.0% of    5.57MiB at  499.79KiB/s ETA 00:00[download] 100% of    5.57MiB in 00:00:11 at 488.19KiB/s [download]   0.0% of   24.30MiB at  425.04KiB/s ETA 00:59
+
+
+
+
+Title: HEER TOH BADI SAD HAI
+ID: 9MaV5vwzxTQ
+Duration: 327
+-------------- 200
+duration: 327 duration from lrc: 326.0 dev: 1.0 
+lrc: [00:28.80] हीर तो बड़ी Sad
+[00:31.27] आजकल very mad
+[00:33.68] हीर तो बड़ी sad
+[00:36.31] आजकल very mad
+[00:38.67] ना खाती-पीती
+[00:41.50] रोना-धोना मुश्किल
+[00:44.05] प्यार की लू में इतनी जल गयी
+[00:53.54] Loo में जाना मुश्किल है
+[00:55.95] Loo में जाना मुश्किल है
+[00:58.47] हीर की हालत
+[01:00.17] क़सम रब की
+[01:01.44] क़सम रब की
+[01:02.77] क़सम रब की
+[01:05.17] आजकल Very bad है जी
+[01:07.98] हीर तो बड़ी Sad है
+[01:10.43] आजकल very mad है जी
+[01:13.23] हीर तो बड़ी Sad है जी
+[01:16.23] 
+[01:32.28] इश्क़ है माचिस
+[01:33.76] दिल है Diesel
+[01:35.02] दोनों टंगे डोरम डोर
+[01:37.67] कांटे-पांटे आँख-आँख को
+[01:40.22] सपने कर गए चूरम चूर
+[01:45.36] बजी पड़ी है Band हीर की
+[01:48.10] अब इस Band पे नाचे कौन
+[01:50.57] हुई बोलती बंद-बंद सी
+[01:53.33] कई दिनों से है वो बोर
+[01:56.16] लोग कहें की सनकी हो गयी
+[02:03.06] हाय या वो Utter mad है
+[02:05.91] हीर तो बड़ी Sad है
+[02:08.79] हीर तो बड़ी Sad है
+[02:11.24] आजकल Very bad है जी
+[02:14.93] 
+[03:11.32] मन मृदंग बजे बेढंग
+[03:13.87] उड़ा है रंग बेचारे का
+[03:16.52] लुक मूक ऊपर Pressure Cooker
+[03:19.23] हुआ दिमाग कुंवारे का
+[03:24.64] तेल लगाये नयी ज़िन्दगी
+[03:27.13] सो सो के दिन काटे वो
+[03:29.89] वक़्त के मुँह पे गुस्सा कर के
+[03:32.39] मारती रहती चांटे वो
+[03:35.09] फिक्र में अब तो उसका Dad है
+[03:41.66] हाय Mom भी बड़ी Sad है
+[03:44.76] हीर तो Very bad है
+[03:47.43] आजकल Very bad है जी
+[03:50.44] She's तो Notepad है जी
+[03:52.84] ना खाती-पीती
+[03:55.32] रोना-धोना मुश्किल
+[03:57.77] प्यार की लू में इतनी जल गयी
+[04:04.48] Loo में जाना मुश्किल है
+[04:06.90] Loo में जाना मुश्किल है
+[04:09.54] हीर की हालत
+[04:11.30] क़सम रब की
+[04:12.67] क़सम रब की
+[04:13.86] क़सम रब की
+[04:16.47] आजकल Very bad है जी
+[04:19.17] हीर तो बड़ी Sad है
+[04:21.53] आजकल very mad है जी
+[04:24.40] हीर तो बड़ी Sad है जी
+[04:27.03]  
+
+final lrc: [00:28.80] हीर तो बड़ी Sad
+[00:31.27] आजकल very mad
+[00:33.68] हीर तो बड़ी sad
+[00:36.31] आजकल very mad
+[00:38.67] ना खाती-पीती
+[00:41.50] रोना-धोना मुश्किल
+[00:44.05] प्यार की लू में इतनी जल गयी
+[00:53.54] Loo में जाना मुश्किल है
+[00:55.95] Loo में जाना मुश्किल है
+[00:58.47] हीर की हालत
+[01:00.17] क़सम रब की
+[01:01.44] क़सम रब की
+[01:02.77] क़सम रब की
+[01:05.17] आजकल Very bad है जी
+[01:07.98] हीर तो बड़ी Sad है
+[01:10.43] आजकल very mad है जी
+[01:13.23] हीर तो बड़ी Sad है जी
+[01:16.23] 
+[01:32.28] इश्क़ है माचिस
+[01:33.76] दिल है Diesel
+[01:35.02] दोनों टंगे डोरम डोर
+[01:37.67] कांटे-पांटे आँख-आँख को
+[01:40.22] सपने कर गए चूरम चूर
+[01:45.36] बजी पड़ी है Band हीर की
+[01:48.10] अब इस Band पे नाचे कौन
+[01:50.57] हुई बोलती बंद-बंद सी
+[01:53.33] कई दिनों से है वो बोर
+[01:56.16] लोग कहें की सनकी हो गयी
+[02:03.06] हाय या वो Utter mad है
+[02:05.91] हीर तो बड़ी Sad है
+[02:08.79] हीर तो बड़ी Sad है
+[02:11.24] आजकल Very bad है जी
+[02:14.93] 
+[03:11.32] मन मृदंग बजे बेढंग
+[03:13.87] उड़ा है रंग बेचारे का
+[03:16.52] लुक मूक ऊपर Pressure Cooker
+[03:19.23] हुआ दिमाग कुंवारे का
+[03:24.64] तेल लगाये नयी ज़िन्दगी
+[03:27.13] सो सो के दिन काटे वो
+[03:29.89] वक़्त के मुँह पे गुस्सा कर के
+[03:32.39] मारती रहती चांटे वो
+[03:35.09] फिक्र में अब तो उसका Dad है
+[03:41.66] हाय Mom भी बड़ी Sad है
+[03:44.76] हीर तो Very bad है
+[03:47.43] आजकल Very bad है जी
+[03:50.44] She's तो Notepad है जी
+[03:52.84] ना खाती-पीती
+[03:55.32] रोना-धोना मुश्किल
+[03:57.77] प्यार की लू में इतनी जल गयी
+[04:04.48] Loo में जाना मुश्किल है
+[04:06.90] Loo में जाना मुश्किल है
+[04:09.54] हीर की हालत
+[04:11.30] क़सम रब की
+[04:12.67] क़सम रब की
+[04:13.86] क़सम रब की
+[04:16.47] आजकल Very bad है जी
+[04:19.17] हीर तो बड़ी Sad है
+[04:21.53] आजकल very mad है जी
+[04:24.40] हीर तो बड़ी Sad है जी
+[04:27.03] 
+[download]   0.0% of   24.30MiB at  433.82KiB/s ETA 00:57[download]   0.0% of   24.30MiB at  578.68KiB/s ETA 00:43[download]   0.1% of   24.30MiB at  969.48KiB/s ETA 00:25[download]   0.1% of   24.30MiB at    1.76MiB/s ETA 00:13[download]   0.3% of   24.30MiB at    1.86MiB/s ETA 00:13[download]   0.5% of   24.30MiB at    1.89MiB/s ETA 00:12[download]   1.0% of   24.30MiB at    1.91MiB/s ETA 00:12[download]   2.1% of   24.30MiB at    1.92MiB/s ETA 00:12[download]   4.1% of   24.30MiB at    1.94MiB/s ETA 00:12[download]   8.2% of   24.30MiB at    1.93MiB/s ETA 00:11[download]  16.1% of   24.30MiB at    1.94MiB/s ETA 00:10[download]  24.1% of   24.30MiB at    1.94MiB/s ETA 00:09[download]  32.2% of   24.30MiB at    1.94MiB/s ETA 00:08[download]  39.2% of   24.30MiB at    1.95MiB/s ETA 00:07[download]  39.2% of   24.30MiB at  938.74KiB/s ETA 00:16[download]  39.2% of   24.30MiB at    1.10MiB/s ETA 00:13[download]  39.3% of   24.30MiB at    1.52MiB/s ETA 00:09[download]  39.3% of   24.30MiB at    1.69MiB/s ETA 00:08[download]  39.4% of   24.30MiB at    1.66MiB/s ETA 00:08[download]  39.5% of   24.30MiB at    1.84MiB/s ETA 00:07[download]  39.7% of   24.30MiB at    1.88MiB/s ETA 00:07[download]  40.3% of   24.30MiB at    1.91MiB/s ETA 00:07[download]  41.3% of   24.30MiB at    1.92MiB/s ETA 00:07[download]  43.3% of   24.30MiB at    1.93MiB/s ETA 00:07[download]  47.5% of   24.30MiB at    1.93MiB/s ETA 00:06[download]  55.4% of   24.30MiB at    1.93MiB/s ETA 00:05[download]  63.3% of   24.30MiB at    1.94MiB/s ETA 00:04[download]  71.4% of   24.30MiB at    1.95MiB/s ETA 00:03[download]  79.5% of   24.30MiB at    1.95MiB/s ETA 00:02[download]  79.6% of   24.30MiB at    1.95MiB/s ETA 00:02[download]  79.6% of   24.30MiB at  Unknown B/s ETA Unknown[download]  79.6% of   24.30MiB at    1.12MiB/s ETA 00:04  [download]  79.6% of   24.30MiB at    1.52MiB/s ETA 00:03[download]  79.6% of   24.30MiB at    1.66MiB/s ETA 00:02[download]  79.7% of   24.30MiB at    1.77MiB/s ETA 00:02[download]  79.8% of   24.30MiB at    1.85MiB/s ETA 00:02[download]  80.1% of   24.30MiB at    1.88MiB/s ETA 00:02[download]  80.6% of   24.30MiB at    1.91MiB/s ETA 00:02[download]  81.6% of   24.30MiB at    1.93MiB/s ETA 00:02[download]  83.7% of   24.30MiB at    1.93MiB/s ETA 00:02[download]  87.8% of   24.30MiB at    1.93MiB/s ETA 00:01[download]  95.8% of   24.30MiB at    1.94MiB/s ETA 00:00[download] 100.0% of   24.30MiB at    1.95MiB/s ETA 00:00[download] 100% of   24.30MiB in 00:00:13 at 1.85MiB/s                                                         [download]   0.0% of    4.42MiB at  704.33KiB/s ETA 00:06[download]   0.1% of    4.42MiB at    1.16MiB/s ETA 00:03[download]   0.2% of    4.42MiB at    1.56MiB/s ETA 00:02[download]   0.3% of    4.42MiB at    1.74MiB/s ETA 00:02[download]   0.7% of    4.42MiB at    1.77MiB/s ETA 00:02[download]   1.4% of    4.42MiB at    1.83MiB/s ETA 00:02[download]   2.8% of    4.42MiB at    1.89MiB/s ETA 00:02[download]   5.6% of    4.42MiB at    1.91MiB/s ETA 00:02[download]  11.3% of    4.42MiB at    1.92MiB/s ETA 00:02[download]  22.6% of    4.42MiB at    1.92MiB/s ETA 00:01[download]  45.3% of    4.42MiB at    1.93MiB/s ETA 00:01[download]  89.3% of    4.42MiB at    1.94MiB/s ETA 00:00[download] 100.0% of    4.42MiB at    1.94MiB/s ETA 00:00[download] 100% of    4.42MiB in 00:00:02 at 1.89MiB/s                                                         
+[ExtractAudio] Destination: audio/9MaV5vwzxTQ.opus
+Deleting original file audio/9MaV5vwzxTQ.webm (pass -k to keep)
+[Metadata] Adding metadata to "audio/9MaV5vwzxTQ.opus"
+[MoveFiles] Moving file "audio/9MaV5vwzxTQ.webp" to "albums/TAMASHA.webp"
+[download] Downloading item 3 of 9
+[youtube] Extracting URL: https://music.youtube.com/watch?v=FOA9iyxsW_A
+[youtube] FOA9iyxsW_A: Downloading webpage
+[youtube] FOA9iyxsW_A: Downloading visionos player API JSON
+[youtube] FOA9iyxsW_A: Downloading m3u8 information
+[info] FOA9iyxsW_A: Downloading 1 format(s): 251
+[info] Video thumbnail is already present
+[download] Sleeping 3.82 seconds ...
+[download] Destination: audio/FOA9iyxsW_A.webm
+[download]   0.0% of    5.80MiB at  218.04KiB/s ETA 00:27[download]   0.1% of    5.80MiB at  367.66KiB/s ETA 00:16[download]   0.1% of    5.80MiB at  464.73KiB/s ETA 00:12[download]   0.3% of    5.80MiB at  479.73KiB/s ETA 00:12[download]   0.5% of    5.80MiB at  488.41KiB/s ETA 00:12[download]   1.1% of    5.80MiB at  491.95KiB/s ETA 00:11[download]   2.1% of    5.80MiB at  491.26KiB/s ETA 00:11[download]   4.3% of    5.80MiB at  492.26KiB/s ETA 00:11[download]   8.6% of    5.80MiB at  494.76KiB/s ETA 00:10[download]  17.0% of    5.80MiB at  495.85KiB/s ETA 00:09[download]  25.4% of    5.80MiB at  498.88KiB/s ETA 00:08[download]  33.9% of    5.80MiB at  498.13KiB/s ETA 00:07[download]  42.2% of    5.80MiB at  499.06KiB/s ETA 00:06[download]  50.7% of    5.80MiB at  499.33KiB/s ETA 00:05[download]  59.1% of    5.80MiB at  497.96KiB/s ETA 00:04[download]  67.4% of    5.80MiB at  498.12KiB/s ETA 00:03[download]  75.8% of    5.80MiB at  498.99KiB/s ETA 00:02[download]  84.3% of    5.80MiB at  499.38KiB/s ETA 00:01[download]  92.8% of    5.80MiB at  499.42KiB/s ETA 00:00[download] 100.0% of    5.80MiB at  499.27KiB/s ETA 00:00[download] 100% of    5.80MiB in 00:00:12 at 489.32KiB/s 
+
+
+
+
+Title: AGAR TUM SAATH HO
+ID: FOA9iyxsW_A
+Duration: 341
+-------------- 200
+duration: 341 duration from lrc: 341.0 dev: 0.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 381.0 dev: 40.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 341.0 dev: 0.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 341.0 dev: 0.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 341.0 dev: 0.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 341.0 dev: 0.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 342.0 dev: 1.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 341.0 dev: 0.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 362.0 dev: 21.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 341.0 dev: 0.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 132.0 dev: 209.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 341.0 dev: 0.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 341.0 dev: 0.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 341.0 dev: 0.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 341.289796 dev: 0.2897960000000239 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 343.066667 dev: 2.0666669999999954 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 334.706939 dev: 6.293061000000023 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 311.0 dev: 30.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 342.0 dev: 1.0 
+lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+ 
+
+duration: 341 duration from lrc: 341.0 dev: 0.0 
+lrc: [00:01.809] 🎵🎵🎵
+[00:24.162] Pal bhar thehar jaao
+[00:28.082] Dil ye sambhal jaaye
+[00:32.723] Kaise tumhe roka karu
+[00:39.673] Meri taraf aata
+[00:43.599] har gam phisal jaaye
+[00:48.125] Aakhon mein tumko bharu
+[00:55.419] Bin bole baatein tumse karu
+[01:02.689] Agar tum saath ho
+[01:10.566] Agar tum saath ho
+[01:15.213] 🎵🎵🎵
+[01:30.781] Behti rehti
+[01:38.077] nahar nadiya si
+[01:43.046] Teri duniya mein
+[01:47.132] Meri duniya hai teri chahton mein
+[01:54.050] Main dhal jaati hu teri adaton mein
+[02:01.001] Agar tum saath ho
+[02:05.991] Teri nazron mein hain tere sapne
+[02:09.445] Tere sapno mein hain naraazi
+[02:13.422] Mujhe lagta hai ke baatein dil ki
+[02:17.203] Hoti lafzon ki dhokhe-baazi
+[02:21.272] Tum saath ho ya na ho, kya fark hai?
+[02:29.105] Bedard thi zindagi, bedard hai
+[02:36.169] Agar tum saath ho
+[02:41.749] Agar tum saath ho
+[02:49.266] 🎵🎵🎵
+[03:21.847] Palkein jhapkte hi din ye nikal jaaye
+[03:30.026] Baithi baithi bhagi phiru
+[03:37.265] Meri taraf aata har gam phisal jaaye
+[03:45.607] Aakhon mein tumko bharu
+[03:53.075] Bin bole baatеn tumse karu
+[04:00.310] Agar tum saath ho
+[04:08.755] Agar tum saath ho
+[04:12.625] Teri nazron mein hain tеre sapne
+[04:16.200] Tere sapno mein hain naraazi
+[04:20.339] Mujhe lagta hai ke baatein dil ki
+[04:24.125] Hoti lafzon ki dhokhe-baazi
+[04:27.998] Tum saath ho ya na ho, kya fark hai?
+[04:35.852] Bedard thi zindagi, bedard hai
+[04:43.215] Agar tum saath ho
+[04:47.807] Dil ye sambhal jaaye
+[04:51.332] Agar tum saath ho
+[04:55.530] Har gham fisal jaaye
+[04:58.423] Agar tum saath ho
+[05:03.253] Din ye nikal jaaye
+[05:06.660] Agar tum saath ho
+[05:13.306] Har gham fisal jaaye
+[05:22.400][download]   0.0% of   22.16MiB at  205.00KiB/s ETA 01:51 
+
+final lrc: [00:24.49] Pal Bhar Thehar Jaao
+[00:28.35] Dil Yeh Sambhal Jaaye
+[00:32.55] Kaise Tumhein Roka Karoon
+[00:40.03] Meri Taraf Aata
+[00:43.82] Har Gham Fisal Jaaye
+[00:48.22] Aankhon Mein Tumko Bharoon
+[00:55.66] Bin Bole Baatein Tumse Karoon
+[01:02.87] Agar Tum Saath Ho
+[01:10.39] Agar Tum Sath Ho
+[01:30.91] Behti Rehti
+[01:38.67] Nahar Nadiya Si
+[01:43.07] Teri Duniya Mein
+[01:46.87] Meri Duniya Hai
+[01:51.02] Teri Chahaton Mein 
+[01:54.67] Main Dhal Jaati Hoon
+[01:58.67] Teri Aadaton Mein
+[02:01.40] Agar Tum Sath Ho
+[02:05.99] Teri Nazron Mein Hai Tere Sapne
+[02:09.78] Tere Sapnon Mein Hai Na Raazi
+[02:13.82] Mujhe Lagta Hai Ke Baatein Dil Ki
+[02:17.46] Hoti Lafzon Ki Dhokebaazi
+[02:21.55] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[02:29.08] Be-dard Thi Zindagi Be-dard Hai
+[02:36.40] Agar Tum Sath Ho
+[02:42.40] Agar Tum Sath Ho
+[03:22.26] Palkein Jhapakte Hi
+[03:25.75] Din Yeh Nikal Jaaye
+[03:30.22] Baithi Baithi Bhaagi Phiroon
+[03:37.45] Meri Taraf Aata
+[03:41.42] Har Gham Fisal Jaaye
+[03:45.82] Aankhon Mein Tumko Bharoon
+[03:53.14] Bin Bole Baatein Tumse Karoon
+[04:00.59] Agar Tum Sath Ho
+[04:08.10] Agar Tum Sath Ho
+[04:12.82] Teri Nazron Mein Hai Tere Sapne
+[04:16.62] Tere Sapnon Mein Hai Na Raazi
+[04:20.50] Mujhe Lagta Hai Ke Baatein Dil Ki
+[04:24.35] Hoti Lafzon Ki Dhokebaazi
+[04:28.34] Tum Sath Ho Ya Na Ho Kya Fark Hai
+[04:36.07] Be-dard Thi Zindagi Be-dard Hai
+[04:43.25] Agar Tum Saath Ho
+[04:47.87] Dil Yeh Sambhal Jaaye
+[04:51.10] Agar Tum Sath Ho
+[04:55.55] Har Gham Fisal Jaaye
+[04:58.58] Agar Tum Sath Ho
+[05:03.54] Din Yeh Nikal Jaaye
+[05:06.54] Agar Tum Sath Ho
+[05:13.67] Har Gham Fisal Jaaye
+[05:41.05] 
+
+[download]   0.0% of   22.16MiB at  352.93KiB/s ETA 01:04[download]   0.0% of   22.16MiB at  604.22KiB/s ETA 00:37[download]   0.1% of   22.16MiB at  851.14KiB/s ETA 00:26[download]   0.1% of   22.16MiB at    1.53MiB/s ETA 00:14[download]   0.3% of   22.16MiB at    1.64MiB/s ETA 00:13[download]   0.6% of   22.16MiB at    1.41MiB/s ETA 00:15[download]   1.1% of   22.16MiB at    1.46MiB/s ETA 00:14[download]   2.3% of   22.16MiB at    1.41MiB/s ETA 00:15[download]   4.5% of   22.16MiB at    1.44MiB/s ETA 00:14[download]   9.0% of   22.16MiB at    1.09MiB/s ETA 00:18[download]  13.0% of   22.16MiB at    1.31MiB/s ETA 00:14[download]  21.0% of   22.16MiB at    1.39MiB/s ETA 00:12[download]  28.0% of   22.16MiB at    1.84MiB/s ETA 00:08[download]  42.0% of   22.16MiB at    1.86MiB/s ETA 00:06[download]  43.3% of   22.16MiB at    1.92MiB/s ETA 00:06[download]  43.3% of   22.16MiB at  Unknown B/s ETA Unknown[download]  43.3% of   22.16MiB at  941.98KiB/s ETA 00:13  [download]  43.4% of   22.16MiB at    1.56MiB/s ETA 00:08[download]  43.4% of   22.16MiB at    1.75MiB/s ETA 00:07[download]  43.5% of   22.16MiB at    1.75MiB/s ETA 00:07[download]  43.6% of   22.16MiB at    1.82MiB/s ETA 00:06[download]  43.9% of   22.16MiB at    1.81MiB/s ETA 00:06[download]  44.5% of   22.16MiB at    1.91MiB/s ETA 00:06[download]  45.6% of   22.16MiB at    1.92MiB/s ETA 00:06[download]  47.8% of   22.16MiB at    1.90MiB/s ETA 00:06[download]  52.4% of   22.16MiB at    1.91MiB/s ETA 00:05[download]  61.0% of   22.16MiB at    1.92MiB/s ETA 00:04[download]  69.7% of   22.16MiB at    1.94MiB/s ETA 00:03[download]  78.6% of   22.16MiB at    1.90MiB/s ETA 00:02[download]  86.8% of   22.16MiB at    1.95MiB/s ETA 00:01[download]  87.6% of   22.16MiB at    1.95MiB/s ETA 00:01[download]  87.6% of   22.16MiB at  Unknown B/s ETA Unknown[download]  87.6% of   22.16MiB at  901.10KiB/s ETA 00:03  [download]  87.6% of   22.16MiB at    1.28MiB/s ETA 00:02[download]  87.6% of   22.16MiB at    1.55MiB/s ETA 00:01[download]  87.7% of   22.16MiB at    1.76MiB/s ETA 00:01[download]  87.8% of   22.16MiB at    1.42MiB/s ETA 00:01[download]  88.1% of   22.16MiB at    1.89MiB/s ETA 00:01[download]  88.7% of   22.16MiB at    1.90MiB/s ETA 00:01[download]  89.8% of   22.16MiB at    1.89MiB/s ETA 00:01[download]  92.1% of   22.16MiB at    1.90MiB/s ETA 00:00[download]  96.6% of   22.16MiB at    1.92MiB/s ETA 00:00[download] 100.0% of   22.16MiB at    1.93MiB/s ETA 00:00[download] 100% of   22.16MiB in 00:00:11 at 1.89MiB/s                                                         [download]   0.0% of    5.80MiB at  346.44KiB/s ETA 00:17[download]   0.1% of    5.80MiB at  479.99KiB/s ETA 00:12[download]   0.1% of    5.80MiB at  792.75KiB/s ETA 00:07[download]   0.3% of    5.80MiB at    1.20MiB/s ETA 00:04[download]   0.5% of    5.80MiB at    1.79MiB/s ETA 00:03[download]   1.1% of    5.80MiB at    1.72MiB/s ETA 00:03[download]   2.1% of    5.80MiB at    1.80MiB/s ETA 00:03[download]   4.3% of    5.80MiB at    1.91MiB/s ETA 00:02[download]   8.6% of    5.80MiB at    1.92MiB/s ETA 00:02[download]  17.2% of    5.80MiB at    1.92MiB/s ETA 00:02[download]  34.5% of    5.80MiB at    1.93MiB/s ETA 00:01[download]  68.0% of    5.80MiB at    1.93MiB/s ETA 00:00[download] 100.0% of    5.80MiB at    1.94MiB/s ETA 00:00[download] 100% of    5.80MiB in 00:00:03 at 1.93MiB/s                                                         
+[ExtractAudio] Destination: audio/FOA9iyxsW_A.opus
+Deleting original file audio/FOA9iyxsW_A.webm (pass -k to keep)
+[Metadata] Adding metadata to "audio/FOA9iyxsW_A.opus"
+[download] Downloading item 4 of 9
+[youtube] Extracting URL: https://music.youtube.com/watch?v=yZ9eU4sutmo
+[youtube] yZ9eU4sutmo: Downloading webpage
+[youtube] yZ9eU4sutmo: Downloading visionos player API JSON
+[youtube] yZ9eU4sutmo: Downloading m3u8 information
+[info] yZ9eU4sutmo: Downloading 1 format(s): 251
+[info] Video thumbnail is already present
+[download] Sleeping 2.74 seconds ...
+[download] Destination: audio/yZ9eU4sutmo.webm
+[download]   0.0% of    4.95MiB at  477.44KiB/s ETA 00:10[download]   0.1% of    4.95MiB at  417.00KiB/s ETA 00:12[download]   0.1% of    4.95MiB at  460.62KiB/s ETA 00:11[download]   0.3% of    4.95MiB at  478.78KiB/s ETA 00:10[download]   0.6% of    4.95MiB at  478.65KiB/s ETA 00:10[download]   1.2% of    4.95MiB at  484.35KiB/s ETA 00:10[download]   2.5% of    4.95MiB at  488.85KiB/s ETA 00:10[download]   5.0% of    4.95MiB at  491.60KiB/s ETA 00:09[download]  10.1% of    4.95MiB at  496.27KiB/s ETA 00:09[download]  20.0% of    4.95MiB at  498.67KiB/s ETA 00:08[download]  29.9% of    4.95MiB at  498.86KiB/s ETA 00:07[download]  39.7% of    4.95MiB at  498.50KiB/s ETA 00:06[download]  49.5% of    4.95MiB at  498.59KiB/s ETA 00:05[download]  59.4% of    4.95MiB at  496.25KiB/s ETA 00:04[download]  68.9% of    4.95MiB at  499.08KiB/s ETA 00:03[download]  79.2% of    4.95MiB at  499.57KiB/s ETA 00:02[download]  89.1% of    4.95MiB at  499.64KiB/s ETA 00:01[download]  99.0% of    4.95MiB at  499.80KiB/s ETA 00:00[download] 100.0% of    4.95MiB at  499.85KiB/s ETA 00:00[download] 100% of    4.95MiB in 00:00:10 at 495.80KiB/s 
+
+
+
+
+Title: WAT WAT WAT
+ID: yZ9eU4sutmo
+Duration: 298
+-------------- 200
+duration: 298 duration from lrc: 298.0 dev: 0.0 
+lrc: None 
+
+duration: 298 duration from lrc: 298.0 dev: 0.0 
+lrc: None 
+
+duration: 298 duration from lrc: 299.0 dev: 1.0 
+lrc: None 
+
+duration: 298 duration from lrc: 298.0 dev: 0.0 
+lrc: [ar:Arijit Singh,Shashwat Singh]
+[al:Tamasha]
+[ti:Wat Wat Wat]
+[length:04:58.49]
+[00:26.14] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[00:31.91] लड़ावत, वत, वत, वत
+[00:35.72] उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[00:41.73] लगावत, वत, वत, वत
+[00:45.28] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[00:51.27] लड़ावत, वत, वत, वत
+[00:54.95] उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[01:00.99] लगावत, वत, वत, वत
+[01:03.63] ओ-रे, beauty, अपनी duty
+[01:07.07] तोपे line मार के निभावत हैं
+[01:13.96] छोड़ दियल रे सराफत है
+[01:17.06] खुद ही लिए ई आफत है
+[01:20.44] तोहरे पीछे सबसे हमरी
+[01:23.56] जम के हो गई लाठ-लठावत, आवत, आवत
+[01:31.74] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[01:37.50] लड़ावत, वत, वत, वत
+[01:41.46] उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[01:47.27] लगावत, वत, वत, वत
+[01:49.88] ♪
+[02:28.62] ओ, हम हमइं से तोहरी बतियाँ करके बखत बितावे हैं
+[02:35.59] खुदइ हँसते, खुदइ रोते, खुदइ खुद को सतावे हैं
+[02:42.06] तोहरे कारन बस्ती सारी हमका करत मजाक रे
+[02:48.31] पहले आपे फिरते थे हम, अपनी पूरी धाक रे
+[02:54.43] दिखावत, वत, वत, वत, वत, वत, वत
+[02:57.51] दिखावत, वत, वत, वत, वत, वत, वत
+[03:01.28] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[03:07.40] लड़ावत, वत, वत, वत
+[03:11.09] उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[03:16.79] लगावत, वत, वत, वत
+[03:19.41] ♪
+[03:41.03] जान गए, लेके सुर्खी, कजरा टेपटाप के
+[03:47.44] लटके-झटके मार तू हमका फँसावे
+[03:53.29] ओ, पर ई तो बता, तू कौन दिसा?
+[03:56.75] तू कौन मुलुक यूँ हाँक ले जावे?
+[04:00.34] हौले-हौले बाट पे तू हमरी वाट लगा
+[04:06.90] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[04:12.10] लड़ावत, वत, वत, वत
+[04:16.63] उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[04:22.49] लगावत, वत, वत, वत
+[04:26.16] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[04:32.03] लड़ावत, वत, वत, वत
+[04:34.52] 
+ 
+
+duration: 298 duration from lrc: 300.0 dev: 2.0 
+lrc: [ar:Arijit Singh,Shashwat Singh]
+[al:Tamasha]
+[ti:Wat Wat Wat]
+[length:04:58.49]
+[00:26.14] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[00:31.91] लड़ावत, वत, वत, वत
+[00:35.72] उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[00:41.73] लगावत, वत, वत, वत
+[00:45.28] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[00:51.27] लड़ावत, वत, वत, वत
+[00:54.95] उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[01:00.99] लगावत, वत, वत, वत
+[01:03.63] ओ-रे, beauty, अपनी duty
+[01:07.07] तोपे line मार के निभावत हैं
+[01:13.96] छोड़ दियल रे सराफत है
+[01:17.06] खुद ही लिए ई आफत है
+[01:20.44] तोहरे पीछे सबसे हमरी
+[01:23.56] जम के हो गई लाठ-लठावत, आवत, आवत
+[01:31.74] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[01:37.50] लड़ावत, वत, वत, वत
+[01:41.46] उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[01:47.27] लगावत, वत, वत, वत
+[01:49.88] ♪
+[02:28.62] ओ, हम हमइं से तोहरी बतियाँ करके बखत बितावे हैं
+[02:35.59] खुदइ हँसते, खुदइ रोते, खुदइ खुद को सतावे हैं
+[02:42.06] तोहरे कारन बस्ती सारी हमका करत मजाक रे
+[02:48.31] पहले आपे फिरते थे हम, अपनी पूरी धाक रे
+[02:54.43] दिखावत, वत, वत, वत, वत, वत, वत
+[02:57.51] दिखावत, वत, वत, वत, वत, वत, वत
+[03:01.28] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[03:07.40] लड़ावत, वत, वत, वत
+[03:11.09] उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[03:16.79] लगावत, वत, वत, वत
+[03:19.41] ♪
+[03:41.03] जान गए, लेके सुर्खी, कजरा टेपटाप के
+[03:47.44] लटके-झटके मार तू हमका फँसावे
+[03:53.29] ओ, पर ई तो बता, तू कौन दिसा?
+[03:56.75] तू कौन मुलुक यूँ हाँक ले जावे?
+[04:00.34] हौले-हौले बाट पे तू हमरी वाट लगा
+[04:06.90] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[04:12.10] लड़ावत, वत, वत, वत
+[04:16.63] उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[04:22.49] लगावत, वत, वत, वत
+[04:26.16] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[04:32.03] लड़ावत, वत, वत, वत
+[04:34.52] 
+ 
+
+duration: 298 duration from lrc: 123.0 dev: 175.0 
+lrc: [00:26.14]छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[00:31.91]लड़ावत, वत, वत, वत
+[00:35.72]उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[00:41.73]लगावत, वत, वत, वत
+[00:45.28]छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[00:51.27]लड़ावत, वत, वत, वत
+[00:54.95]उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[01:00.99]लगावत, वत, वत, वत
+[01:03.63]ओ-रे, beauty, अपनी duty
+[01:07.07]तोपे line मार के निभावत हैं
+[01:13.96]छोड़ दियल रे सराफत है
+[01:17.06]खुद ही लिए ई आफत है
+[01:20.44]तोहरे पीछे सबसे हमरी
+[01:23.56]जम के हो गई लाठ-लठावत, आवत, आवत
+[01:31.74]छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[01:37.50]लड़ावत, वत, वत, वत
+[01:41.46]उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[01:47.27]लगावत, वत, वत, वत
+[01:49.88]♪
+[02:28.62]ओ, हम हमइं से तोहरी बतियाँ करके बखत बितावे हैं
+[02:35.59]खुदइ हँसते, खुदइ रोते, खुदइ खुद को सतावे हैं
+[02:42.06]तोहरे कारन बस्ती सारी हमका करत मजाक रे
+[02:48.31]पहले आपे फिरते थे हम, अपनी पूरी धाक रे
+[02:54.43]दिखावत, वत, वत, वत, वत, वत, वत
+[02:57.51]दिखावत, वत, वत, वत, वत, वत, वत
+[03:01.28]छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[03:07.40]लड़ावत, वत, वत, वत
+[03:11.09]उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[03:16.79]लगावत, वत, वत, वत
+[03:19.41]♪
+[03:41.03]जान गए, लेके सुर्खी, कजरा टेपटाप के
+[03:47.44]लटके-झटके मार तू हमका फँसावे
+[03:53.29]ओ, पर ई तो बता, तू कौन दिसा?
+[03:56.75]तू कौन मुलुक यूँ हाँक ले जावे?
+[04:00.34]हौले-हौले बाट पे तू हमरी वाट लगा
+[04:06.90]छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[04:12.10]लड़ावत, वत, वत, वत
+[04:16.63]उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[04:22.49]लगावत, वत, वत, वत
+[04:26.16]छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[04:32.03]लड़ावत, वत, वत, वत
+[04:34.52][download]   0.0% of   19.58MiB at  Unknown B/s ETA Unknown 
+
+final lrc: [ar:Arijit Singh,Shashwat Singh]
+[al:Tamasha]
+[ti:Wat Wat Wat]
+[length:04:58.49]
+[00:26.14] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[00:31.91] लड़ावत, वत, वत, वत
+[00:35.72] उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[00:41.73] लगावत, वत, वत, वत
+[00:45.28] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[00:51.27] लड़ावत, वत, वत, वत
+[00:54.95] उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[01:00.99] लगावत, वत, वत, वत
+[01:03.63] ओ-रे, beauty, अपनी duty
+[01:07.07] तोपे line मार के निभावत हैं
+[01:13.96] छोड़ दियल रे सराफत है
+[01:17.06] खुद ही लिए ई आफत है
+[01:20.44] तोहरे पीछे सबसे हमरी
+[01:23.56] जम के हो गई लाठ-लठावत, आवत, आवत
+[01:31.74] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[01:37.50] लड़ावत, वत, वत, वत
+[01:41.46] उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[01:47.27] लगावत, वत, वत, वत
+[01:49.88] ♪
+[02:28.62] ओ, हम हमइं से तोहरी बतियाँ करके बखत बितावे हैं
+[02:35.59] खुदइ हँसते, खुदइ रोते, खुदइ खुद को सतावे हैं
+[02:42.06] तोहरे कारन बस्ती सारी हमका करत मजाक रे
+[02:48.31] पहले आपे फिरते थे हम, अपनी पूरी धाक रे
+[02:54.43] दिखावत, वत, वत, वत, वत, वत, वत
+[02:57.51] दिखावत, वत, वत, वत, वत, वत, वत
+[03:01.28] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[03:07.40] लड़ावत, वत, वत, वत
+[03:11.09] उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[03:16.79] लगावत, वत, वत, वत
+[03:19.41] ♪
+[03:41.03] जान गए, लेके सुर्खी, कजरा टेपटाप के
+[03:47.44] लटके-झटके मार तू हमका फँसावे
+[03:53.29] ओ, पर ई तो बता, तू कौन दिसा?
+[03:56.75] तू कौन मुलुक यूँ हाँक ले जावे?
+[04:00.34] हौले-हौले बाट पे तू हमरी वाट लगा
+[04:06.90] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[04:12.10] लड़ावत, वत, वत, वत
+[04:16.63] उड़त चिड़िया के हल्दी रगड़ के लगावत, वत, वत, वत, वत, वत, वत
+[04:22.49] लगावत, वत, वत, वत
+[04:26.16] छम्मक छोरिया से नयनवा लड़ावत, वत, वत, वत, वत, वत, वत
+[04:32.03] लड़ावत, वत, वत, वत
+[04:34.52] 
+
+[download]   0.0% of   19.58MiB at    1.17MiB/s ETA 00:16  [download]   0.0% of   19.58MiB at    1.47MiB/s ETA 00:13[download]   0.1% of   19.58MiB at    1.52MiB/s ETA 00:12[download]   0.2% of   19.58MiB at    1.61MiB/s ETA 00:12[download]   0.3% of   19.58MiB at    1.75MiB/s ETA 00:11[download]   0.6% of   19.58MiB at    1.85MiB/s ETA 00:10[download]   1.3% of   19.58MiB at    1.87MiB/s ETA 00:10[download]   2.5% of   19.58MiB at    1.90MiB/s ETA 00:10[download]   5.1% of   19.58MiB at    1.91MiB/s ETA 00:09[download]  10.2% of   19.58MiB at    1.90MiB/s ETA 00:09[download]  19.8% of   19.58MiB at    1.92MiB/s ETA 00:08[download]  29.7% of   19.58MiB at    1.94MiB/s ETA 00:07[download]  39.9% of   19.58MiB at    1.95MiB/s ETA 00:06[download]  49.9% of   19.58MiB at    1.94MiB/s ETA 00:05[download]  50.2% of   19.58MiB at    1.95MiB/s ETA 00:05[download]  50.2% of   19.58MiB at  407.33KiB/s ETA 00:24[download]  50.2% of   19.58MiB at  255.62KiB/s ETA 00:39[download]  50.2% of   19.58MiB at  455.44KiB/s ETA 00:21[download]  50.3% of   19.58MiB at  689.20KiB/s ETA 00:14[download]  50.3% of   19.58MiB at    1.12MiB/s ETA 00:08[download]  50.5% of   19.58MiB at    1.65MiB/s ETA 00:05[download]  50.8% of   19.58MiB at    1.87MiB/s ETA 00:05[download]  51.4% of   19.58MiB at    1.85MiB/s ETA 00:05[download]  52.7% of   19.58MiB at    1.92MiB/s ETA 00:04[download]  55.3% of   19.58MiB at    1.91MiB/s ETA 00:04[download]  60.4% of   19.58MiB at    1.93MiB/s ETA 00:04[download]  70.3% of   19.58MiB at    1.92MiB/s ETA 00:03[download]  80.1% of   19.58MiB at    1.94MiB/s ETA 00:02[download]  90.2% of   19.58MiB at    1.94MiB/s ETA 00:00[download] 100.0% of   19.58MiB at    1.94MiB/s ETA 00:00[download] 100% of   19.58MiB in 00:00:10 at 1.86MiB/s                                                         [download]   0.0% of    4.52MiB at  665.23KiB/s ETA 00:07[download]   0.1% of    4.52MiB at  765.62KiB/s ETA 00:06[download]   0.2% of    4.52MiB at    1.17MiB/s ETA 00:03[download]   0.3% of    4.52MiB at    1.35MiB/s ETA 00:03[download]   0.7% of    4.52MiB at    1.63MiB/s ETA 00:02[download]   1.4% of    4.52MiB at    1.77MiB/s ETA 00:02[download]   2.7% of    4.52MiB at    1.80MiB/s ETA 00:02[download]   5.5% of    4.52MiB at    1.82MiB/s ETA 00:02[download]  11.0% of    4.52MiB at    1.90MiB/s ETA 00:02[download]  22.1% of    4.52MiB at    1.90MiB/s ETA 00:01[download]  44.2% of    4.52MiB at    1.92MiB/s ETA 00:01[download]  87.0% of    4.52MiB at    1.92MiB/s ETA 00:00[download] 100.0% of    4.52MiB at    1.94MiB/s ETA 00:00[download] 100% of    4.52MiB in 00:00:02 at 1.91MiB/s                                                         
+[ExtractAudio] Destination: audio/yZ9eU4sutmo.opus
+Deleting original file audio/yZ9eU4sutmo.webm (pass -k to keep)
+[Metadata] Adding metadata to "audio/yZ9eU4sutmo.opus"
+[download] Downloading item 5 of 9
+[youtube] Extracting URL: https://music.youtube.com/watch?v=T1YOnx_d7MA
+[youtube] T1YOnx_d7MA: Downloading webpage
+[youtube] T1YOnx_d7MA: Downloading visionos player API JSON
+[youtube] T1YOnx_d7MA: Downloading m3u8 information
+[info] T1YOnx_d7MA: Downloading 1 format(s): 251
+[info] Video thumbnail is already present
+[download] Sleeping 2.29 seconds ...
+[download] Destination: audio/T1YOnx_d7MA.webm
+[download]   0.0% of    5.16MiB at  449.36KiB/s ETA 00:12[download]   0.1% of    5.16MiB at  385.66KiB/s ETA 00:13[download]   0.1% of    5.16MiB at  440.02KiB/s ETA 00:12[download]   0.3% of    5.16MiB at  451.47KiB/s ETA 00:11[download]   0.6% of    5.16MiB at  462.83KiB/s ETA 00:11[download]   1.2% of    5.16MiB at  465.48KiB/s ETA 00:11[download]   2.4% of    5.16MiB at  485.15KiB/s ETA 00:10[download]   4.8% of    5.16MiB at  490.97KiB/s ETA 00:10[download]   9.7% of    5.16MiB at  494.12KiB/s ETA 00:09[download]  19.1% of    5.16MiB at  497.07KiB/s ETA 00:08[download]  28.6% of    5.16MiB at  497.77KiB/s ETA 00:07[download]  38.0% of    5.16MiB at  498.21KiB/s ETA 00:06[download]  47.5% of    5.16MiB at  499.40KiB/s ETA 00:05[download]  57.0% of    5.16MiB at  498.47KiB/s ETA 00:04[download]  66.4% of    5.16MiB at  498.08KiB/s ETA 00:03[download]  75.8% of    5.16MiB at  499.25KiB/s ETA 00:02[download]  85.4% of    5.16MiB at  499.27KiB/s ETA 00:01[download]  94.8% of    5.16MiB at  499.09KiB/s ETA 00:00[download] 100.0% of    5.16MiB at  499.59KiB/s ETA 00:00[download] 100% of    5.16MiB in 00:00:10 at 489.19KiB/s [download]   0.0% of   15.32MiB at  790.04KiB/s ETA 00:20
+
+
+
+
+Title: CHALI KAHANI
+ID: T1YOnx_d7MA
+Duration: 320
+-------------- 200
+final lrc: 
+[download]   0.0% of   15.32MiB at  542.37KiB/s ETA 00:29[download]   0.0% of   15.32MiB at  828.26KiB/s ETA 00:18[download]   0.1% of   15.32MiB at    1.28MiB/s ETA 00:11[download]   0.2% of   15.32MiB at    1.62MiB/s ETA 00:09[download]   0.4% of   15.32MiB at    1.66MiB/s ETA 00:09[download]   0.8% of   15.32MiB at    1.83MiB/s ETA 00:08[download]   1.6% of   15.32MiB at    1.83MiB/s ETA 00:08[download]   3.3% of   15.32MiB at    1.89MiB/s ETA 00:07[download]   6.5% of   15.32MiB at    1.90MiB/s ETA 00:07[download]  13.0% of   15.32MiB at    1.91MiB/s ETA 00:06[download]  25.5% of   15.32MiB at    1.92MiB/s ETA 00:05[download]  38.2% of   15.32MiB at    1.93MiB/s ETA 00:04[download]  50.9% of   15.32MiB at    1.94MiB/s ETA 00:03[download]  62.0% of   15.32MiB at    1.94MiB/s ETA 00:02[download]  62.0% of   15.32MiB at  Unknown B/s ETA Unknown[download]  62.1% of   15.32MiB at  419.88KiB/s ETA 00:14  [download]  62.1% of   15.32MiB at  705.08KiB/s ETA 00:08[download]  62.1% of   15.32MiB at    1.21MiB/s ETA 00:04[download]  62.2% of   15.32MiB at    1.32MiB/s ETA 00:04[download]  62.4% of   15.32MiB at    1.75MiB/s ETA 00:03[download]  62.9% of   15.32MiB at    1.84MiB/s ETA 00:03[download]  63.7% of   15.32MiB at    1.87MiB/s ETA 00:02[download]  65.3% of   15.32MiB at    1.86MiB/s ETA 00:02[download]  68.6% of   15.32MiB at    1.91MiB/s ETA 00:02[download]  75.1% of   15.32MiB at    1.90MiB/s ETA 00:02[download]  87.4% of   15.32MiB at    1.92MiB/s ETA 00:01[download] 100.0% of   15.32MiB at    1.93MiB/s ETA 00:00[download] 100% of   15.32MiB in 00:00:08 at 1.86MiB/s                                                         [download]   0.0% of    5.16MiB at  769.74KiB/s ETA 00:06[download]   0.1% of    5.16MiB at  510.09KiB/s ETA 00:10[download]   0.1% of    5.16MiB at  820.02KiB/s ETA 00:06[download]   0.3% of    5.16MiB at    1.45MiB/s ETA 00:03[download]   0.6% of    5.16MiB at    1.56MiB/s ETA 00:03[download]   1.2% of    5.16MiB at    1.81MiB/s ETA 00:02[download]   2.4% of    5.16MiB at    1.89MiB/s ETA 00:02[download]   4.8% of    5.16MiB at    1.90MiB/s ETA 00:02[download]   9.7% of    5.16MiB at    1.92MiB/s ETA 00:02[download]  19.4% of    5.16MiB at    1.91MiB/s ETA 00:02[download]  38.7% of    5.16MiB at    1.91MiB/s ETA 00:01[download]  75.6% of    5.16MiB at    1.92MiB/s ETA 00:00[download] 100.0% of    5.16MiB at    1.85MiB/s ETA 00:00[download] 100% of    5.16MiB in 00:00:02 at 1.80MiB/s                                                         
+[ExtractAudio] Destination: audio/T1YOnx_d7MA.opus
+Deleting original file audio/T1YOnx_d7MA.webm (pass -k to keep)
+[Metadata] Adding metadata to "audio/T1YOnx_d7MA.opus"
+[download] Downloading item 6 of 9
+[youtube] Extracting URL: https://music.youtube.com/watch?v=FCRUrHJW468
+[youtube] FCRUrHJW468: Downloading webpage
+[youtube] FCRUrHJW468: Downloading visionos player API JSON
+[youtube] FCRUrHJW468: Downloading m3u8 information
+[info] FCRUrHJW468: Downloading 1 format(s): 251
+[info] Video thumbnail is already present
+[download] Sleeping 3.91 seconds ...
+[download] Destination: audio/FCRUrHJW468.webm
+[download]   0.0% of    4.39MiB at  479.79KiB/s ETA 00:09[download]   0.1% of    4.39MiB at  371.04KiB/s ETA 00:12[download]   0.2% of    4.39MiB at  449.43KiB/s ETA 00:10[download]   0.3% of    4.39MiB at  466.64KiB/s ETA 00:09[download]   0.7% of    4.39MiB at  487.38KiB/s ETA 00:09[download]   1.4% of    4.39MiB at  483.89KiB/s ETA 00:09[download]   2.8% of    4.39MiB at  490.08KiB/s ETA 00:08[download]   5.7% of    4.39MiB at  494.38KiB/s ETA 00:08[download]  11.4% of    4.39MiB at  496.93KiB/s ETA 00:08[download]  22.5% of    4.39MiB at  495.33KiB/s ETA 00:07[download]  33.4% of    4.39MiB at  498.51KiB/s ETA 00:06[download]  44.7% of    4.39MiB at  497.70KiB/s ETA 00:04[download]  55.7% of    4.39MiB at  498.11KiB/s ETA 00:04[download]  66.8% of    4.39MiB at  498.67KiB/s ETA 00:02[download]  78.0% of    4.39MiB at  499.07KiB/s ETA 00:01[download]  89.1% of    4.39MiB at  499.59KiB/s ETA 00:00[download] 100.0% of    4.39MiB at  499.09KiB/s ETA 00:00[download] 100% of    4.39MiB in 00:00:09 at 494.80KiB/s 
+
+
+
+
+Title: SAFARNAMA
+ID: FCRUrHJW468
+Duration: 251
+-------------- 200
+duration: 251 duration from lrc: 142.0 dev: 109.0 
+lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum 
+
+duration: 251 duration from lrc: 251.0 dev: 0.0 
+lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum 
+
+duration: 251 duration from lrc: 257.0 dev: 6.0 
+lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum 
+
+duration: 251 duration from lrc: 256.0 dev: 5.0 
+lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum 
+
+duration: 251 duration from lrc: 253.0 dev: 2.0 
+lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum 
+
+duration: 251 duration from lrc: 251.0 dev: 0.0 
+lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum 
+
+duration: 251 duration from lrc: 142.0 dev: 109.0 
+lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum 
+
+duration: 251 duration from lrc: 252.0 dev: 1.0 
+lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum 
+
+duration: 251 duration from lrc: 251.0 dev: 0.0 
+lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum 
+
+duration: 251 duration from lrc: 251.472109 dev: 0.472108999999989 
+lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum 
+
+duration: 251 duration from lrc: 451.0 dev: 200.0 
+lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum 
+
+duration: 251 duration from lrc: 251.0 dev: 0.0 
+lrc: [00:21.58]O safarnama
+[00:28.23]Sawaalon ka safarnama
+[00:36.03]Shuru tumse khatam tumpe safarnama o
+[00:49.43]O jisey dhoonda
+[00:56.35]Zamaane mein mujhi mein tha
+[01:04.86]O mere saare jawaabon ka safarnama
+[01:20.69]Meri ore se utha teri ore ko kadam pehla
+[01:26.11]Milenge hum
+[02:44.52]O safarnama
+[02:50.36]Khayaalon ka safarnama
+[02:58.27]Andhere mein ujaalon ka safarnama
+[03:11.36]O savare sa
+[03:18.23]Purana bhi nayaa bhi hai o
+[03:27.42]O muhabbat ki misaalon ka safarnama
+[03:42.80]Meri ore se utha teri ore ko kadam pehla
+[03:48.29]Milenge hum
+[03:53.33]Pehla milenge hum 
+
+duration: 251 duration from lrc: 278.080128 dev: 27.080128000000002 
+lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum[download]   0.0% of   13.13MiB at  Unknown B/s ETA Unknown 
+
+duration: 251 duration from lrc: 142.0 dev: 109.0 
+lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum 
+
+duration: 251 duration from lrc: 251.0 dev: 0.0 
+lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum 
+
+duration: 251 duration from lrc: 253.413333 dev: 2.4133329999999944 
+lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum 
+
+duration: 251 duration from lrc: 249.0 dev: 2.0 
+lrc: [00:21.58]O safarnama
+[00:28.23]Sawaalon ka safarnama
+[00:36.03]Shuru tumse khatam tumpe safarnama o
+[00:49.43]O jisey dhoonda
+[00:56.35]Zamaane mein mujhi mein tha
+[01:04.86]O mere saare jawaabon ka safarnama
+[01:20.68]Meri ore se utha teri ore ko kadam pehla
+[01:26.10]Milenge hum
+[02:44.51]O safarnama
+[02:50.35]Khayaalon ka safarnama
+[02:58.26]Andhere mein ujaalon ka safarnama
+[03:11.35]O savare sa
+[03:18.22]Purana bhi nayaa bhi hai o
+[03:27.41]O muhabbat ki misaalon ka safarnama
+[03:42.79]Meri ore se utha teri ore ko kadam pehla
+[03:48.28]Milenge hum
+[03:53.32]Pehla milenge hum 
+
+duration: 251 duration from lrc: 256.0 dev: 5.0 
+lrc: [00:21.58]O safarnama
+[00:28.23]Sawaalon ka safarnama
+[00:36.03]Shuru tumse khatam tumpe safarnama o
+[00:49.43]O jisey dhoonda
+[00:56.35]Zamaane mein mujhi mein tha
+[01:04.86]O mere saare jawaabon ka safarnama
+[01:20.68]Meri ore se utha teri ore ko kadam pehla
+[01:26.10]Milenge hum
+[02:44.51]O safarnama
+[02:50.35]Khayaalon ka safarnama
+[02:58.26]Andhere mein ujaalon ka safarnama
+[03:11.35]O savare sa
+[03:18.22]Purana bhi nayaa bhi hai o
+[03:27.41]O muhabbat ki misaalon ka safarnama
+[03:42.79]Meri ore se utha teri ore ko kadam pehla
+[03:48.28]Milenge hum
+[03:53.32]Pehla milenge hum 
+
+final lrc: [00:21.583]O safarnama
+[00:28.233]Sawaalon ka safarnama
+[00:36.033]Shuru tumse khatam tumpe safarnama o
+[00:49.433]O jisey dhoonda
+[00:56.353]Zamaane mein mujhi mein tha
+[01:04.864]O mere saare jawaabon ka safarnama
+[01:20.685]Meri ore se utha teri ore ko kadam pehla
+[01:26.105]Milenge hum
+[02:44.515]O safarnama
+[02:50.355]Khayaalon ka safarnama
+[02:58.265]Andhere mein ujaalon ka safarnama
+[03:11.355]O savare sa
+[03:18.225]Purana bhi nayaa bhi hai o
+[03:27.415]O muhabbat ki misaalon ka safarnama
+[03:42.795]Meri ore se utha teri ore ko kadam pehla
+[03:48.285]Milenge hum
+[03:53.325]Pehla milenge hum
+[download]   0.0% of   13.13MiB at  985.50KiB/s ETA 00:13  [download]   0.1% of   13.13MiB at 1019.10KiB/s ETA 00:14[download]   0.1% of   13.13MiB at  898.57KiB/s ETA 00:14[download]   0.2% of   13.13MiB at  413.39KiB/s ETA 00:32[download]   0.5% of   13.13MiB at  774.07KiB/s ETA 00:17[download]   0.9% of   13.13MiB at  726.08KiB/s ETA 00:18[download]   1.9% of   13.13MiB at    1.14MiB/s ETA 00:11[download]   3.8% of   13.13MiB at    1.62MiB/s ETA 00:07[download]   7.6% of   13.13MiB at    1.69MiB/s ETA 00:07[download]  15.2% of   13.13MiB at    1.91MiB/s ETA 00:05[download]  30.4% of   13.13MiB at    1.89MiB/s ETA 00:04[download]  44.6% of   13.13MiB at    1.94MiB/s ETA 00:03[download]  60.3% of   13.13MiB at    1.94MiB/s ETA 00:02[download]  74.9% of   13.13MiB at    1.94MiB/s ETA 00:01[download]  74.9% of   13.13MiB at  Unknown B/s ETA Unknown[download]  74.9% of   13.13MiB at  590.58KiB/s ETA 00:05  [download]  74.9% of   13.13MiB at  960.42KiB/s ETA 00:03[download]  75.0% of   13.13MiB at    1.55MiB/s ETA 00:02[download]  75.1% of   13.13MiB at    1.62MiB/s ETA 00:02[download]  75.4% of   13.13MiB at    1.76MiB/s ETA 00:01[download]  75.8% of   13.13MiB at    1.85MiB/s ETA 00:01[download]  76.8% of   13.13MiB at    1.87MiB/s ETA 00:01[download]  78.7% of   13.13MiB at    1.87MiB/s ETA 00:01[download]  82.5% of   13.13MiB at    1.89MiB/s ETA 00:01[download]  90.1% of   13.13MiB at    1.92MiB/s ETA 00:00[download] 100.0% of   13.13MiB at    1.93MiB/s ETA 00:00[download] 100% of   13.13MiB in 00:00:06 at 1.90MiB/s                                                         [download]   0.0% of    2.41MiB at   31.67KiB/s ETA 01:17[download]   0.1% of    2.41MiB at   56.93KiB/s ETA 00:43[download]   0.3% of    2.41MiB at   78.06KiB/s ETA 00:31[download]   0.6% of    2.41MiB at  150.01KiB/s ETA 00:16[download]   1.3% of    2.41MiB at  194.87KiB/s ETA 00:12[download]   2.6% of    2.41MiB at  365.04KiB/s ETA 00:06[download]   5.2% of    2.41MiB at  726.35KiB/s ETA 00:03[download]  10.3% of    2.41MiB at    1.33MiB/s ETA 00:01[download]  20.7% of    2.41MiB at    1.89MiB/s ETA 00:01[download]  41.5% of    2.41MiB at    1.90MiB/s ETA 00:00[download]  83.0% of    2.41MiB at    1.93MiB/s ETA 00:00[download] 100.0% of    2.41MiB at    1.94MiB/s ETA 00:00[download] 100% of    2.41MiB in 00:00:01 at 1.61MiB/s                                                         
+[ExtractAudio] Destination: audio/FCRUrHJW468.opus
+Deleting original file audio/FCRUrHJW468.webm (pass -k to keep)
+[Metadata] Adding metadata to "audio/FCRUrHJW468.opus"
+[download] Downloading item 7 of 9
+[youtube] Extracting URL: https://music.youtube.com/watch?v=SqpUGw5CLMc
+[youtube] SqpUGw5CLMc: Downloading webpage
+[youtube] SqpUGw5CLMc: Downloading visionos player API JSON
+[youtube] SqpUGw5CLMc: Downloading m3u8 information
+[info] SqpUGw5CLMc: Downloading 1 format(s): 251
+[info] Video thumbnail is already present
+[download] Sleeping 3.42 seconds ...
+[download] Destination: audio/SqpUGw5CLMc.webm
+[download]   0.0% of    3.89MiB at  467.12KiB/s ETA 00:08[download]   0.1% of    3.89MiB at  326.14KiB/s ETA 00:12[download]   0.2% of    3.89MiB at  404.19KiB/s ETA 00:09[download]   0.4% of    3.89MiB at  437.93KiB/s ETA 00:09[download]   0.8% of    3.89MiB at  470.13KiB/s ETA 00:08[download]   1.6% of    3.89MiB at  485.49KiB/s ETA 00:08[download]   3.2% of    3.89MiB at  490.32KiB/s ETA 00:07[download]   6.4% of    3.89MiB at  494.21KiB/s ETA 00:07[download]  12.8% of    3.89MiB at  496.72KiB/s ETA 00:06[download]  25.4% of    3.89MiB at  494.91KiB/s ETA 00:06[download]  37.8% of    3.89MiB at  497.66KiB/s ETA 00:04[download]  50.4% of    3.89MiB at  499.15KiB/s ETA 00:03[download]  63.1% of    3.89MiB at  498.87KiB/s ETA 00:02[download]  75.6% of    3.89MiB at  499.44KiB/s ETA 00:01[download]  88.2% of    3.89MiB at  499.15KiB/s ETA 00:00[download] 100.0% of    3.89MiB at  499.13KiB/s ETA 00:00[download] 100% of    3.89MiB in 00:00:08 at 494.43KiB/s [download]   0.0% of    8.15MiB at  665.97KiB/s ETA 00:12
+
+
+
+
+Title: PARADE DE LA BASTILLE
+ID: SqpUGw5CLMc
+Duration: 221
+-------------- 200
+duration: 221 duration from lrc: 223.226667 dev: 2.226666999999992 
+lrc: None 
+
+duration: 221 duration from lrc: 221.0 dev: 0.0 
+lrc: None 
+
+duration: 221 duration from lrc: 221.0 dev: 0.0 
+lrc: None 
+
+duration: 221 duration from lrc: 221.0 dev: 0.0 
+lrc: None 
+
+duration: 221 duration from lrc: 223.0 dev: 2.0 
+lrc: None 
+
+duration: 221 duration from lrc: 221.33551 dev: 0.3355099999999993 
+lrc: None 
+
+duration: 221 duration from lrc: 221.0 dev: 0.0 
+lrc: None 
+
+duration: 221 duration from lrc: 223.226667 dev: 2.226666999999992 
+lrc: None 
+
+duration: 221 duration from lrc: 221.0 dev: 0.0 
+lrc: None 
+
+duration: 221 duration from lrc: 221.0 dev: 0.0 
+lrc: None 
+
+duration: 221 duration from lrc: 248.0 dev: 27.0 
+lrc: None 
+
+duration: 221 duration from lrc: 221.0 dev: 0.0 
+lrc: None 
+
+duration: 221 duration from lrc: 221.0 dev: 0.0 
+lrc: None 
+
+final lrc: 
+[download]   0.0% of    8.15MiB at  683.00KiB/s ETA 00:12[download]   0.1% of    8.15MiB at  948.57KiB/s ETA 00:08[download]   0.2% of    8.15MiB at    1.40MiB/s ETA 00:05[download]   0.4% of    8.15MiB at    1.48MiB/s ETA 00:05[download]   0.8% of    8.15MiB at    1.72MiB/s ETA 00:04[download]   1.5% of    8.15MiB at    1.81MiB/s ETA 00:04[download]   3.1% of    8.15MiB at    1.87MiB/s ETA 00:04[download]   6.1% of    8.15MiB at    1.89MiB/s ETA 00:04[download]  12.3% of    8.15MiB at    1.90MiB/s ETA 00:03[download]  24.5% of    8.15MiB at    1.88MiB/s ETA 00:03[download]  47.4% of    8.15MiB at    1.88MiB/s ETA 00:02[download]  70.6% of    8.15MiB at    1.94MiB/s ETA 00:01[download]  95.7% of    8.15MiB at    1.92MiB/s ETA 00:00[download] 100.0% of    8.15MiB at    1.95MiB/s ETA 00:00[download] 100% of    8.15MiB in 00:00:04 at 1.85MiB/s                                                         [download]   0.0% of    3.90MiB at  Unknown B/s ETA Unknown[download]   0.1% of    3.90MiB at 1022.25KiB/s ETA 00:03  [download]   0.2% of    3.90MiB at    1.44MiB/s ETA 00:02[download]   0.4% of    3.90MiB at    1.23MiB/s ETA 00:03[download]   0.8% of    3.90MiB at    1.47MiB/s ETA 00:02[download]   1.6% of    3.90MiB at    1.82MiB/s ETA 00:02[download]   3.2% of    3.90MiB at    1.72MiB/s ETA 00:02[download]   6.4% of    3.90MiB at    1.83MiB/s ETA 00:01[download]  12.8% of    3.90MiB at    1.92MiB/s ETA 00:01[download]  25.6% of    3.90MiB at    1.90MiB/s ETA 00:01[download]  51.3% of    3.90MiB at    1.90MiB/s ETA 00:00[download] 100.0% of    3.90MiB at    1.93MiB/s ETA 00:00[download] 100% of    3.90MiB in 00:00:02 at 1.89MiB/s                                                         
+[ExtractAudio] Destination: audio/SqpUGw5CLMc.opus
+Deleting original file audio/SqpUGw5CLMc.webm (pass -k to keep)
+[Metadata] Adding metadata to "audio/SqpUGw5CLMc.opus"
+[download] Downloading item 8 of 9
+[youtube] Extracting URL: https://music.youtube.com/watch?v=wp-zjd_MhIQ
+[youtube] wp-zjd_MhIQ: Downloading webpage
+[youtube] wp-zjd_MhIQ: Downloading visionos player API JSON
+[youtube] wp-zjd_MhIQ: Downloading m3u8 information
+[info] wp-zjd_MhIQ: Downloading 1 format(s): 251
+[info] Video thumbnail is already present
+[download] Sleeping 2.86 seconds ...
+[download] Destination: audio/wp-zjd_MhIQ.webm
+[download]   0.0% of    3.64MiB at  477.66KiB/s ETA 00:07[download]   0.1% of    3.64MiB at  395.22KiB/s ETA 00:09[download]   0.2% of    3.64MiB at  409.69KiB/s ETA 00:09[download]   0.4% of    3.64MiB at  469.24KiB/s ETA 00:07[download]   0.8% of    3.64MiB at  485.26KiB/s ETA 00:07[download]   1.7% of    3.64MiB at  491.94KiB/s ETA 00:07[download]   3.4% of    3.64MiB at  494.92KiB/s ETA 00:07[download]   6.9% of    3.64MiB at  492.29KiB/s ETA 00:07[download]  13.7% of    3.64MiB at  495.14KiB/s ETA 00:06[download]  27.1% of    3.64MiB at  497.11KiB/s ETA 00:05[download]  40.5% of    3.64MiB at  497.95KiB/s ETA 00:04[download]  53.9% of    3.64MiB at  499.12KiB/s ETA 00:03[download]  67.4% of    3.64MiB at  499.04KiB/s ETA 00:02[download]  80.8% of    3.64MiB at  499.55KiB/s ETA 00:01[download]  94.3% of    3.64MiB at  499.06KiB/s ETA 00:00[download] 100.0% of    3.64MiB at  499.22KiB/s ETA 00:00[download] 100% of    3.64MiB in 00:00:07 at 496.92KiB/s [download] Downloading item 9 of 9
+
+
+
+
+
+Title: WAT WAT (VENGEANCE MIX)
+ID: wp-zjd_MhIQ
+Duration: 235
+-------------- 503
+Rate limited (429). Skipping lyrics.
+-------------- 200
+duration: 235 duration from lrc: 234.8432 dev: 0.15680000000000405 
+lrc: [00:41.62] Chhamak chhoriyan se nayanwa ladawat
+[00:45.15] Wat wat wat wat wat wat wat
+[00:47.97] Ladaawat wat wat wat wat
+[00:51.66] Udti chidiya ke haldi ragad ke lagawat
+[00:55.99] Wat wat wat wat wat wat wat
+[00:58.33] Lagawat wat wat wat wat
+[01:02.19] Chhamak chhoriyan se nayanwa ladawat
+[01:05.78] Wat wat wat wat wat wat wat
+[01:08.32] Ladaawat wat wat wat wat
+[01:12.43] Udti chidiya ke haldi ragad ke lagawat
+[01:16.43] Wat wat wat wat wat wat wat
+[01:19.06] Lagawat wat wat wat wat
+[01:49.92] Chhamak chhoriyan se nayanwa ladawat
+[01:53.96] Wat wat wat wat wat wat wat
+[01:56.66] Ladaawat wat wat wat wat
+[02:00.40] Udti chidiya ke haldi ragad ke lagawat
+[02:04.51] Wat wat wat wat wat wat wat
+[02:06.85] Lagawat wat wat wat wat
+[02:10.01] O re beauty, apni duty
+[02:13.50] Tumpe line maarke nibhawat hai
+[02:17.05] Chhod diya le le sharafat hai
+[02:20.73] Khud hi liye ee aafat hai
+[02:24.49] Tohre pichhe jab se humri
+[02:27.89] Jam ke ho gayi lath lagawat aawat aawat.
+[02:36.49] Chhamak chhoriyan se nayanwa ladavat
+[02:40.58] Vat vat vat vat vat vat vat
+[02:43.05] Ladaawat wat wat wat wat
+[03:03.95] Udti chidiya ke haldi ragad ke
+[03:34.72] Wat wat wat wat wat wat 
+
+duration: 235 duration from lrc: 235.0 dev: 0.0 
+lrc: [00:41.62]Chhamak chhoriyan se nayanwa ladawat
+[00:45.15]Wat wat wat wat wat wat wat
+[00:47.97]Ladaawat wat wat wat wat
+[00:51.66]Udti chidiya ke haldi ragad ke lagawat
+[00:55.99]Wat wat wat wat wat wat wat
+[00:58.33]Lagawat wat wat wat wat
+[01:02.19]Chhamak chhoriyan se nayanwa ladawat
+[01:05.78]Wat wat wat wat wat wat wat
+[01:08.32]Ladaawat wat wat wat wat
+[01:12.43]Udti chidiya ke haldi ragad ke lagawat
+[01:16.43]Wat wat wat wat wat wat wat
+[01:19.06]Lagawat wat wat wat wat
+[01:49.92]Chhamak chhoriyan se nayanwa ladawat
+[01:53.96]Wat wat wat wat wat wat wat
+[01:56.66]Ladaawat wat wat wat wat
+[02:00.40]Udti chidiya ke haldi ragad ke lagawat
+[02:04.51]Wat wat wat wat wat wat wat
+[02:06.85]Lagawat wat wat wat wat
+[02:10.01]O re beauty, apni duty
+[02:13.50]Tumpe line maarke nibhawat hai
+[02:17.05]Chhod diya le le sharafat hai
+[02:20.73]Khud hi liye ee aafat hai
+[02:24.49]Tohre pichhe jab se humri
+[02:27.89]Jam ke ho gayi lath lagawat aawat aawat.
+[02:36.49]Chhamak chhoriyan se nayanwa ladavat
+[02:40.58]Vat vat vat vat vat vat vat
+[02:43.05]Ladaawat wat wat wat wat
+[03:03.95]Udti chidiya ke haldi ragad ke
+[03:34.72]Wat wat wat wat wat wat 
+
+final lrc: [00:41.62]Chhamak chhoriyan se nayanwa ladawat
+[00:45.15]Wat wat wat wat wat wat wat
+[00:47.97]Ladaawat wat wat wat wat
+[00:51.66]Udti chidiya ke haldi ragad ke lagawat
+[00:55.99]Wat wat wat wat wat wat wat
+[00:58.33]Lagawat wat wat wat wat
+[01:02.19]Chhamak chhoriyan se nayanwa ladawat
+[01:05.78]Wat wat wat wat wat wat wat
+[01:08.32]Ladaawat wat wat wat wat
+[01:12.43]Udti chidiya ke haldi ragad ke lagawat
+[01:16.43]Wat wat wat wat wat wat wat
+[01:19.06]Lagawat wat wat wat wat
+[01:49.92]Chhamak chhoriyan se nayanwa ladawat
+[01:53.96]Wat wat wat wat wat wat wat
+[01:56.66]Ladaawat wat wat wat wat
+[02:00.40]Udti chidiya ke haldi ragad ke lagawat
+[02:04.51]Wat wat wat wat wat wat wat
+[02:06.85]Lagawat wat wat wat wat
+[02:10.01]O re beauty, apni duty
+[02:13.50]Tumpe line maarke nibhawat hai
+[02:17.05]Chhod diya le le sharafat hai
+[02:20.73]Khud hi liye ee aafat hai
+[02:24.49]Tohre pichhe jab se humri
+[02:27.89]Jam ke ho gayi lath lagawat aawat aawat.
+[02:36.49]Chhamak chhoriyan se nayanwa ladavat
+[02:40.58]Vat vat vat vat vat vat vat
+[02:43.05]Ladaawat wat wat wat wat
+[03:03.95]Udti chidiya ke haldi ragad ke
+[03:34.72]Wat wat wat wat wat wat
+[youtube] Extracting URL: https://music.youtube.com/watch?v=yZdaQGNpIVs
+[youtube] yZdaQGNpIVs: Downloading webpage
+[youtube] yZdaQGNpIVs: Downloading visionos player API JSON
+[youtube] yZdaQGNpIVs: Downloading m3u8 information
+[info] yZdaQGNpIVs: Downloading 1 format(s): 251
+[info] Video thumbnail is already present
+[download] Sleeping 3.58 seconds ...
+[download] Destination: audio/yZdaQGNpIVs.webm
+[download]   0.0% of    7.14MiB at  276.52KiB/s ETA 00:26[download]   0.0% of    7.14MiB at  278.31KiB/s ETA 00:26[download]   0.1% of    7.14MiB at  452.52KiB/s ETA 00:16[download]   0.2% of    7.14MiB at  444.05KiB/s ETA 00:16[download]   0.4% of    7.14MiB at  467.14KiB/s ETA 00:15[download]   0.9% of    7.14MiB at  485.82KiB/s ETA 00:14[download]   1.7% of    7.14MiB at  495.21KiB/s ETA 00:14[download]   3.5% of    7.14MiB at  495.90KiB/s ETA 00:14[download]   7.0% of    7.14MiB at  491.56KiB/s ETA 00:13[download]  13.7% of    7.14MiB at  496.04KiB/s ETA 00:12[download]  20.5% of    7.14MiB at  497.08KiB/s ETA 00:11[download]  27.3% of    7.14MiB at  497.90KiB/s ETA 00:10[download]  34.2% of    7.14MiB at  497.58KiB/s ETA 00:09[download]  41.0% of    7.14MiB at  498.71KiB/s ETA 00:08[download]  47.9% of    7.14MiB at  499.48KiB/s ETA 00:07[download]  54.8% of    7.14MiB at  498.60KiB/s ETA 00:06[download]  61.5% of    7.14MiB at  499.27KiB/s ETA 00:05[download]  68.4% of    7.14MiB at  499.25KiB/s ETA 00:04[download]  75.2% of    7.14MiB at  499.41KiB/s ETA 00:03[download]  82.1% of    7.14MiB at  499.70KiB/s ETA 00:02[download]  89.0% of    7.14MiB at  499.41KiB/s ETA 00:01[download]  95.7% of    7.14MiB at  499.68KiB/s ETA 00:00[download] 100.0% of    7.14MiB at  499.77KiB/s ETA 00:00[download] 100% of    7.14MiB in 00:00:14 at 497.64KiB/s [download]   0.0% of   17.45MiB at  Unknown B/s ETA Unknown
+
+
+
+
+Title: TU KOI AUR HAI
+ID: yZdaQGNpIVs
+Duration: 440
+-------------- 200
+duration: 440 duration from lrc: 440.0 dev: 0.0 
+lrc: [00:06.28] तू कोई और है, जानता है तू
+[00:20.50] सामने इस जहान के इक नक़ाब है
+[00:33.96] तू और है, कोई और है
+[00:43.74] क्यूँ नहीं, वो जो है?
+[00:58.66] तू जहाँ के वास्ते खुद को भूल कर
+[01:10.47] अपने ही साथ ना ऐसा ज़ुल्म कर
+[01:21.17] खोल दे वो गिरह जो लगाए तुझपे तू
+[01:31.64] बोल दे, तू कोई और है
+[01:41.77] चेहरे जो ओढ़े तूने वो
+[01:49.98] तेरे कहाँ हैं?
+[01:53.88] सामने आ, खोल दे सब
+[01:56.74] जो है दिल में बोल के अब
+[01:59.83] सामने आ, खोल दे सब
+[02:02.79] जो है दिल में बोल के अब
+[02:05.86] तेरे रास्ते, ख़्वाब हैं तेरे
+[02:16.63] तेरे साथ जो उम्र-भर चले
+[02:26.87] ओ, इन्हें गले लगा, तू कौन है बता?
+[02:38.42] ओ, खोल दे ये गिरह
+[02:47.16] 
+[03:24.86] तू कोई और है, तेरी ना हदें
+[03:39.50] आसमाँ है, ख़याल है, बेमिसाल है
+[03:53.17] तू मौज है, तू रौनक़ें
+[04:02.63] चाहे जो, वो है
+[04:13.26]  
+
+final lrc: [00:06.28] तू कोई और है, जानता है तू
+[00:20.50] सामने इस जहान के इक नक़ाब है
+[00:33.96] तू और है, कोई और है
+[00:43.74] क्यूँ नहीं, वो जो है?
+[00:58.66] तू जहाँ के वास्ते खुद को भूल कर
+[01:10.47] अपने ही साथ ना ऐसा ज़ुल्म कर
+[01:21.17] खोल दे वो गिरह जो लगाए तुझपे तू
+[01:31.64] बोल दे, तू कोई और है
+[01:41.77] चेहरे जो ओढ़े तूने वो
+[01:49.98] तेरे कहाँ हैं?
+[01:53.88] सामने आ, खोल दे सब
+[01:56.74] जो है दिल में बोल के अब
+[01:59.83] सामने आ, खोल दे सब
+[02:02.79] जो है दिल में बोल के अब
+[02:05.86] तेरे रास्ते, ख़्वाब हैं तेरे
+[02:16.63] तेरे साथ जो उम्र-भर चले
+[02:26.87] ओ, इन्हें गले लगा, तू कौन है बता?
+[02:38.42] ओ, खोल दे ये गिरह
+[02:47.16] 
+[03:24.86] तू कोई और है, तेरी ना हदें
+[03:39.50] आसमाँ है, ख़याल है, बेमिसाल है
+[03:53.17] तू मौज है, तू रौनक़ें
+[04:02.63] चाहे जो, वो है
+[04:13.26] 
+[download]   0.0% of   17.45MiB at  988.83KiB/s ETA 00:18  [download]   0.0% of   17.45MiB at    1.40MiB/s ETA 00:12[download]   0.1% of   17.45MiB at    1.61MiB/s ETA 00:10[download]   0.2% of   17.45MiB at    1.73MiB/s ETA 00:10[download]   0.4% of   17.45MiB at    1.80MiB/s ETA 00:09[download]   0.7% of   17.45MiB at    1.86MiB/s ETA 00:09[download]   1.4% of   17.45MiB at    1.90MiB/s ETA 00:09[download]   2.9% of   17.45MiB at    1.92MiB/s ETA 00:08[download]   5.7% of   17.45MiB at    1.93MiB/s ETA 00:08[download]  11.5% of   17.45MiB at    1.93MiB/s ETA 00:08[download]  22.5% of   17.45MiB at    1.93MiB/s ETA 00:07[download]  33.6% of   17.45MiB at    1.94MiB/s ETA 00:05[download]  44.8% of   17.45MiB at    1.94MiB/s ETA 00:04[download]  55.6% of   17.45MiB at    1.94MiB/s ETA 00:03[download]  55.6% of   17.45MiB at  331.70KiB/s ETA 00:24[download]  55.6% of   17.45MiB at  400.82KiB/s ETA 00:19[download]  55.6% of   17.45MiB at  613.87KiB/s ETA 00:12[download]  55.7% of   17.45MiB at  950.77KiB/s ETA 00:08[download]  55.7% of   17.45MiB at    1.47MiB/s ETA 00:05[download]  55.9% of   17.45MiB at    1.50MiB/s ETA 00:05[download]  56.3% of   17.45MiB at    1.57MiB/s ETA 00:04[download]  57.0% of   17.45MiB at    1.50MiB/s ETA 00:05[download]  58.4% of   17.45MiB at    1.86MiB/s ETA 00:03[download]  61.3% of   17.45MiB at    1.90MiB/s ETA 00:03[download]  67.0% of   17.45MiB at    1.94MiB/s ETA 00:02[download]  78.3% of   17.45MiB at    1.91MiB/s ETA 00:01[download]  89.1% of   17.45MiB at    1.94MiB/s ETA 00:00[download] 100.0% of   17.45MiB at    1.93MiB/s ETA 00:00[download] 100% of   17.45MiB in 00:00:09 at 1.83MiB/s                                                         [download]   0.0% of    7.14MiB at  371.54KiB/s ETA 00:19[download]   0.0% of    7.14MiB at  521.94KiB/s ETA 00:14[download]   0.1% of    7.14MiB at  868.44KiB/s ETA 00:08[download]   0.2% of    7.14MiB at    1.40MiB/s ETA 00:05[download]   0.4% of    7.14MiB at    1.39MiB/s ETA 00:05[download]   0.9% of    7.14MiB at    1.84MiB/s ETA 00:03[download]   1.7% of    7.14MiB at    1.87MiB/s ETA 00:03[download]   3.5% of    7.14MiB at    1.72MiB/s ETA 00:04[download]   7.0% of    7.14MiB at    1.83MiB/s ETA 00:03[download]  14.0% of    7.14MiB at    1.87MiB/s ETA 00:03[download]  28.0% of    7.14MiB at    1.90MiB/s ETA 00:02[download]  55.1% of    7.14MiB at    1.88MiB/s ETA 00:01[download]  81.3% of    7.14MiB at    1.94MiB/s ETA 00:00[download] 100.0% of    7.14MiB at    1.94MiB/s ETA 00:00[download] 100% of    7.14MiB in 00:00:03 at 1.91MiB/s                                                         
+[ExtractAudio] Destination: audio/yZdaQGNpIVs.opus
+Deleting original file audio/yZdaQGNpIVs.webm (pass -k to keep)
+[Metadata] Adding metadata to "audio/yZdaQGNpIVs.opus"
+[download] Finished downloading playlist: Album - TAMASHA
