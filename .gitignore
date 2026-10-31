@@ -3,3 +3,17 @@
 /trash/
 /trash2/
 /teash2/
+
+# Media files
+/audio/
+/albums/
+/artists/
+/lyrics/
+/videos/
+
+# Database
+data.db
+
+# Python cache
+__pycache__/
+*.pyc
