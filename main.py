@@ -196,7 +196,7 @@ def write_save_lrc(I,p,duration):
         print("duration:", duration, "dev:", dev)
 
 
-def after_download(info):
+def after_download(info,is_search_video=True):
     conn=sqlite3.connect(DATABASE_PATH)
     cursor=sqlite3.Cursor(conn)
     print(info.keys())
@@ -213,6 +213,7 @@ def after_download(info):
     album=info.get("album")
     duration=info.get("duration")
     I=info.get("id")
+    
     save_thumbnail(I,album)
     cursor.execute("""  
         INSERT INTO music (audio_id, title,duration, album, artists)   
@@ -251,13 +252,14 @@ def after_download(info):
         except Exception as e:
             print("Lyrics error:", e)
     print("23444&&_54&6+&;-&")
-    search_video(title,I)
+    if is_search_video==True:
+        search_video(title,I)
 
 
-def download_song(url):
+def download_song(url,is_search_video=True):
     def hook(d):
         if d["status"] == "finished":
-            after_download(d["info_dict"])
+            after_download(d["info_dict"],is_search_video)
     options["progress_hooks"] = [hook]
     with yt_dlp.YoutubeDL(options) as ydl:
         ydl.download([url])
@@ -312,7 +314,7 @@ def restore_missing_audio():
 
         try:
             print("Downloading:", url)
-            download_file(url)
+            download_song(url,False)
 
             if audio_path.exists() and audio_path.stat().st_size > 0:
                 downloaded += 1
