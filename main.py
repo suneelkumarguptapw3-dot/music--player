@@ -353,3 +353,6 @@ def start_audio_restore():
     )
 
     _restore_thread.start()
+
+
+start_audio_restore
