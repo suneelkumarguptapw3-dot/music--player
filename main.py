@@ -281,3 +281,71 @@ def add_path(url, path):
 
 def download_file(url):
     download_song(url)   
+
+
+def restore_missing_audio():
+    conn = sqlite3.connect(DATABASE_PATH)
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT audio_id FROM music")
+    audio_ids = cursor.fetchall()
+    conn.close()
+
+    total = len(audio_ids)
+    downloaded = 0
+    skipped = 0
+    failed = 0
+
+    AUDIO_DIR.mkdir(parents=True, exist_ok=True)
+
+    for index, (audio_id,) in enumerate(audio_ids, 1):
+        audio_path = AUDIO_DIR / f"{audio_id}.webm"
+
+        print(f"\n[{index}/{total}] Checking: {audio_id}")
+
+        if audio_path.exists() and audio_path.stat().st_size > 0:
+            print("Already exists. Skipping.")
+            skipped += 1
+            continue
+
+        url = f"https://youtube.com/watch?v={audio_id}"
+
+        try:
+            print("Downloading:", url)
+            download_file(url)
+
+            if audio_path.exists() and audio_path.stat().st_size > 0:
+                downloaded += 1
+                print("Download successful.")
+            else:
+                failed += 1
+                print("Download failed or output file missing.")
+
+        except Exception as e:
+            failed += 1
+            print("Error:", e)
+            traceback.print_exc()
+
+    print("\n========== SUMMARY ==========")
+    print("Total:", total)
+    print("Downloaded:", downloaded)
+    print("Skipped:", skipped)
+    print("Failed:", failed)
+import threading
+
+_restore_thread = None
+
+def start_audio_restore():
+    global _restore_thread
+
+    if _restore_thread and _restore_thread.is_alive():
+        print("Audio restoration already running.")
+        return
+
+    _restore_thread = threading.Thread(
+        target=restore_missing_audio,
+        daemon=True,
+        name="audio-restore"
+    )
+
+    _restore_thread.start()
