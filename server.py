@@ -2,7 +2,7 @@
 from flask import Flask, request, jsonify ,send_file,render_template
 import urllib.parse
 from pathlib import Path
-from main import download_file,download_song
+from main import download_file,download_song,write_save_lrc
 import sqlite3
 from lrctoolbox import SyncedLyrics
 
@@ -198,6 +198,13 @@ def get_123(id):
         a=urllib.parse.quote(f"/api/video/{row[1]}.webm")
     else:
         a="na"
+    if not get_lyric(id+'.lrc'):
+        p = {  
+            "track_name": row[2],  
+            "artist_name": row[5] 
+            }  
+        duration=row[3]
+        write_save_lrc(id,p,duration)
     return jsonify({
         "id": row[1],
         "title": row[2],
