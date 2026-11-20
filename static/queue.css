@@ -1,7 +1,7 @@
 .queue {
     position: fixed;
     background-color: rgba(54, 54, 54, 0.295);
-    overflow-y: scroll;
+    overflow-y: auto;
     z-index: 8;
     backdrop-filter: blur(30px);
     transition-duration: 500ms;

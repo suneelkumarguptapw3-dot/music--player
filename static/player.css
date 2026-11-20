@@ -47,7 +47,8 @@ video {
     margin: 10px;
     overflow: scroll;
     white-space: nowrap;
-    max-width: 90%;
+    max-width: 80%;
+    font-family: Sans-Serif;
     overflow-x: auto;
     backdrop-filter: blur(2px);
     scrollbar-width: none;
@@ -151,6 +152,7 @@ video {
     color: rgb(182, 182, 190) !important;
     font-weight: bold !important;
     transition-duration: 500ms;
+    margin-inline: 0 !important;
     transition-timing-function: linear;
     font-size: 25px !important;
 }
@@ -158,6 +160,7 @@ video {
 .lyric {
     display: block;
     font-size: 23px;
+    margin-inline: 30px;
     color: rgba(220, 225, 223, 0.336);
 }
 
@@ -213,7 +216,7 @@ video {
 
 
 #time-container {
-    font-size: medium;
+    font-size: small;
     margin-top: 4px;
     display: flex;
 }
@@ -259,7 +262,7 @@ video {
 }
 
 .player>.bottom-container>#controls>button {
-    width: min(15%, 50px);
+    width: min(15%, 40px);
     aspect-ratio: 1/1;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -310,13 +313,16 @@ audio {
     display: flex;
     gap: 14px;
     position: fixed;
-    bottom: 50px;
+    bottom: 40px;
     left: 0;
+    background: linear-gradient(
+        to bottom,rgb(26, 26, 26),rgb(24, 24, 24)
+    ) !important;
     width: calc(100% - 1px);
     box-sizing: border-box;
     margin-inline: 1px;
     justify-self: center;
-    height: 80px;
+    height: 70px;
     border-radius: 3px;
     overflow: hidden;
     flex-direction: row;
@@ -391,7 +397,6 @@ audio {
     accent-color: #78787800;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    overflow: hidden;
     margin: 4px;
 }
 
@@ -412,6 +417,9 @@ audio {
 
 .miniplayer>.bottom-container>#controls {
     margin-top: 4px;
+    gap:10px !important;
+    position:relative;
+    bottom:10px;
 }
 
 .miniplayer>.bottom-container>#controls>button {
@@ -604,7 +612,7 @@ iframe {
 .queue>:nth-child(1){
     position: relative;
     left:calc(100vw - 40px);
-    
+
 }
 
 .playing {
@@ -619,7 +627,7 @@ iframe {
     transition-duration: 2s;
     animation: a 6s linear infinite;
     border-radius: 50%;
-    
+
 }
 .playing > button{
     display: none;
@@ -659,5 +667,5 @@ iframe {
 
 .enabled{
     background-color: rgba(168, 168, 168, 0.564) !important;
-    
+
 }

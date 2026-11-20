@@ -138,11 +138,12 @@ function matchImageSideBars(img) {
         )`;
 
 
-    document.getElementById("emm").style.background = `linear-gradient(
+   /* document.getElementById("emm").style.background = `linear-gradient(
         to top left,
         color-mix(in srgb, ${leftColor} 6%, rgb(20, 19, 19)),
         color-mix(in srgb, ${leftColor} 30%, rgb(17, 16, 16))
         )`;
+        */
     setPWAColor(leftColor);
     const bgI = `url("${imageUrl}")`;
     bg_img_cont.style.backgroundColor = leftColor;
@@ -153,26 +154,37 @@ function matchImageSideBars(img) {
         ${leftColor} 100%
     )`;
     overlay.style.opacity = "0.8";
+    window.bg_img=imageUrl;
     if (window["home_page"]) {
-        window["home_page"].body.style.background = `linear-gradient(
+        window.home_page.body.style.setProperty('--bg-url', `url('${imageUrl}')`);
+       
+       /*window["home_page"].body.style.background = `linear-gradient(
         to top left,
         color-mix(in srgb, ${leftColor} 6%, rgb(20, 19, 19)),
         color-mix(in srgb, ${leftColor} 30%, rgb(17, 16, 16))
         )`;
+        */
+        
     }
     if (window["track_page"]) {
+        window.track_page.body.style.setProperty('--bg-url', `url('${imageUrl}')`);
+        /*
         window["track_page"].body.style.background = `linear-gradient(
         to top left,
         color-mix(in srgb, ${leftColor} 6%, rgb(20, 19, 19)),
         color-mix(in srgb, ${leftColor} 30%, rgb(17, 16, 16))
         )`;
+        */
     }
     if (window["artist_page"]) {
+        window.artist_page.body.style.setProperty('--bg-url', `url('${imageUrl}')`);
+        /*
         window["artist_page"].body.style.background = `linear-gradient(
         to top left,
         color-mix(in srgb, ${leftColor} 6%, rgb(20, 19, 19)),
         color-mix(in srgb, ${leftColor} 30%, rgb(17, 16, 16))
         )`;
+        */
     }
 
     return {
@@ -272,6 +284,7 @@ window.add_next = function (el) {
         document.querySelector(".playing").insertAdjacentElement("afterend", document.getElementById(el.id));
     }
 }
+
 async function init_queue() {
     if (queue_inited) {
         return;
@@ -291,6 +304,9 @@ async function init_queue() {
     const data = await response.json();
     const d = data.slice(0, 40);
     for (const el of d) {
+        if(document.getElementById(el.id)){
+            continue
+        }
         const card = document.createElement("div");
         card.className = "track";
         card.draggable = true;
@@ -328,7 +344,7 @@ async function init_queue() {
 }
 
 window.load_player = async function (lrc, I, el) {
-    await init_queue();
+    //await init_queue();
     if (!document.getElementById(I)) {
         console.log("inted queue");
         console.log("no element exists");
@@ -374,14 +390,20 @@ window.load_player = async function (lrc, I, el) {
         }
 
     }else{
-    
+        const element = document.getElementById(el.id);
+        const playing = document.querySelector(".playing");
+        if (element && playing) {
+             playing.insertAdjacentElement("afterend", element);
+        }else{
+
+        }
     }
     document.querySelectorAll(".track").forEach(e => {
         e.classList.remove("playing");
     })
     document.getElementById(I).classList.add("playing");
     lyricContainer.innerHTML = "";
-
+    await init_queue();
     prev.removeEventListener('click', play_prev_song, { once: true });
     next.removeEventListener('click', play_next_song, { once: true });
     audio.removeEventListener('ended', play_next_song, { once: true });
@@ -436,8 +458,6 @@ window.load_player = async function (lrc, I, el) {
     });
 }
 
-
-
 window.route_parent = function (I) {
     const url = new URL(window.location.href);
     console.log(url);
@@ -487,17 +507,11 @@ function f() {
         if (currentTime >= parseFloat(keys[i]) && currentTime < parseFloat(keys[i + 1])) {
             if (curr_idx != i) {
                 curr_idx = i;
-
                 document.querySelectorAll('.lyric').forEach(lyric => {
                     lyric.classList.remove('highlight');
                 });
 
                 scrollToElement(lyricContainer, document.getElementById(i), 500)
-                //document.getElementById(i).scrollIntoView({
-                //behavior: 'smooth',
-                //block: 'center',
-                //inline: 'center'
-                //});
                 document.getElementById(i).classList.add('highlight');
             }
 
@@ -529,7 +543,7 @@ window.fetch_metadata = function (x) {
         const artist = data["artists"];
         const album = data["album"];
         const dur = data["duration"];
-        const thumb_url = data["thumbnail"];
+        const thumb_url = data["thumbnail"]+"?maxres=1";
         const audio_url = data["audio"];
         const video_url = data["video"];
         if (video_url != "na") {
@@ -552,7 +566,7 @@ window.fetch_metadata = function (x) {
                 album: album || "My Music",
                 artwork: [
                     {
-                        src: thumb_url,
+                        src: thumb_url.replace("?maxres=1",""),
                         sizes: "720x720",
                         type: "image/webp"
                     }

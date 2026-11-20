@@ -1,36 +1,39 @@
-#context-menu {
-    position: absolute;
-    display: none;
-    height: 300px;
-    width: 200px;
-    border-radius: 5px;
-    z-index: 8;
-    background-color: rgb(41, 41, 41);
-}
+        .context-menu {
+            position: absolute;
+            display: none;
+            height: 165px;
+            width: 151px;
+            border-radius: 13px;
+            z-index: 8;
+            background-color: rgb(41, 41, 41);
+            overflow: hidden;
+        }
 
-#context-menu>ul {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-}
+        .context-menu>ul {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
 
-#context-menu>ul>li {
-    width: 100%;
-    height: 10%;
-    border: 1px solid rgb(0, 0, 0);
-}
+            list-style: none;
+        }
 
-#context-menu>ul>li>button {
-    color: white;
-    display: flex;
-    gap: 5px;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-}
+        .context-menu>ul>li {
+            width: 100%;
+            height: 20%;
 
-#context-menu>ul>li>button:hover {
-    background-color: rgba(74, 75, 75, 0.568);
-}
+            border: 1px solid rgb(0, 0, 0);
+        }
+
+        .context-menu>ul>li>* {
+            color: white;
+            display: flex;
+            gap: 5px;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+        }
+
+        .context-menu>ul>li>*:hover {
+            background-color: rgba(74, 75, 75, 0.568);
+        }
