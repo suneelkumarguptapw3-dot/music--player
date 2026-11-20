@@ -10,7 +10,7 @@ PROJECT_DIR = Path(__file__).resolve().parent
 DATABASE_PATH = PROJECT_DIR / "data.db"
 app=Flask(__name__)
 
-@app.after_request
+#@app.after_request
 def no_cache(response):
     response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
     response.headers["Pragma"] = "no-cache"
@@ -61,9 +61,12 @@ def get_lyric(path):
 
 @app.route('/api/thumbnail/<path>')
 def get_thmb(path):
+    query = request.args.get("maxres", "").strip()
     path=urllib.parse.unquote(path)
-    path=PROJECT_DIR / 'albums' / path
-    return send_file(path)
+    p=PROJECT_DIR / 'albums360' / path
+    if query == "1":
+        p=PROJECT_DIR / 'albums' / path
+    return send_file(p)
 
 @app.route("/player")
 def index():
@@ -99,7 +102,54 @@ def e():
         files.append(a)
     conn.close()    
     return files[::-1]
+@app.get("/search")
+def search():
+    query = request.args.get("q", "").strip()
+    if not query:
+        return []
 
+    # Escape LIKE wildcards so the query is matched literally
+    escaped = query.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_")
+
+    conn = sqlite3.connect(DATABASE_PATH)
+    cursor = conn.cursor()
+    cursor.execute(
+        """
+        SELECT id, audio_id, title, duration, album, artists, is_liked
+        FROM music
+        WHERE title LIKE ? ESCAPE '\\'
+        ORDER BY
+            CASE
+                WHEN LOWER(title) = LOWER(?) THEN 0
+                WHEN LOWER(title) LIKE LOWER(?) || '%' ESCAPE '\\' THEN 1
+                ELSE 2
+            END,
+            id DESC
+        LIMIT 7
+        """,
+        (f"%{escaped}%", query, escaped),
+    )
+    rows = cursor.fetchall()
+    conn.close()
+
+    files = []
+    for row in rows:
+        audio_id = row[1]
+        video_path = PROJECT_DIR / "videos" / f"{audio_id}.webm"
+
+        files.append({
+            "id": audio_id,
+            "title": row[2],
+            "duration": row[3],
+            "album": row[4],
+            "audio": urllib.parse.quote(f"/api/music/{audio_id}.webm"),
+            "video": urllib.parse.quote(f"/api/video/{audio_id}.webm") if video_path.exists() else "na",
+            "thumbnail": f"/api/thumbnail/{row[4]}.webp",
+            "artists": row[5],
+            "is_liked": row[6],
+        })
+
+    return files
 @app.route("/hello")
 def indejj():
     return send_file(PROJECT_DIR / "artists.html")
@@ -199,9 +249,10 @@ def get_123(id):
     else:
         a="na"
     if not get_lyric(id+'.lrc'):
+        print("searching lyrics")
         p = {  
-            "track_name": row[2],  
-            "artist_name": row[5] 
+            "track_name": row[2],
+            "artist_name":row[5]
             }  
         duration=row[3]
         write_save_lrc(id,p,duration)
