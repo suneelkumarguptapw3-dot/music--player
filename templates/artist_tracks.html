@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Tracks</title>
     <script src="/static/cards.js"></script>
+    <link rel="stylesheet" href="/static/bar.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/static/background.css" type="text/css"/>
 </head>
 
 <body>
@@ -234,23 +236,7 @@
 
         }
 
-        .bar {
-            background-color: black;
-            width: 100%;
-            position: fixed;
-            display: flex;
-            align-items: flex-start;
-            justify-content: space-around;
-            bottom: 0;
-            height: 50px;
-        }
 
-        .bar>* {
-            background: none;
-            border: none;
-            height: 100%;
-            display: flex;
-        }
     </style>
     <script>
         const queryString = window.location.search;
@@ -323,9 +309,13 @@
         });
         window.parent["artist_page"] = document;
         window.parent.addEventListener("load", () => {
-            document.body.style.background = window.parent.document.body.style.background;
+            console.log("from index.html", window.parent.document.body.style.background);
+            document.body.style.setProperty('--bg-url', `url('${window.parent.bg_img || "/static/image.jpeg"}')`);
+            // document.body.style.background = window.parent.document.body.style.background;
         });
-        document.body.style.background = window.parent.document.body.style.background;
+        document.body.style.setProperty('--bg-url', `url('${window.parent.bg_img || "/static/image.jpeg"}')`);
+        // document.body.style.background = window.parent.document.body.style.background;
+
 
     </script>
 </body>

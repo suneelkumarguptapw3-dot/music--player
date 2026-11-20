@@ -9,7 +9,10 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Music Player">
     <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="static/cards.css" type="text/css" media="all" />
     <link rel="icon" type="image/svg+xml" href="/icon.svg">
+    <link rel="stylesheet" href="/static/background.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/static/bar.css" type="text/css" media="all" />
     <title>Document</title>
     <script src="/static/cards.js"></script>
 </head>
@@ -21,27 +24,66 @@
     </header>
     <div class="albums">
     </div>
-    <script>
-        window.addEventListener("pageshow", (event) => {
-            const navType = performance.getEntriesByType("navigation")[0]?.type;
-            if (event.persisted || navType === "back_forward") {
-                window.location.reload();
-            }
-        });
-
+    <script src="/static/cards.js" type="text/javascript" charset="utf-8"></script>
+     <script>
         fetch("/api/album").then(response => response.json()).then(data => {
-            for (el of data) {
-                let card = createAlbumCard(el);
-                document.querySelector(".albums").appendChild(card);
-            };
+            if(window.self != window.top){
+                for (el of data) {
+                    let card = createAlbumCard(el);
+                    card.addEventListener("click",()=>{
+                        location.pathname=card.href;
+                    })
+                    card.playBtn.album_name=el;
+                    card.playBtn.playAll=function(){
+                        console.log("called")
+                        fetch(`/api/album/${this.album_name}`).then(response => response.json()).then(data => {
+                            data.forEach(e=>{
+                                console.log(e);
+                                window.parent.add_next(e);
+                            })
+                            window.parent.fetch_metadata(data[0]["id"]);
+                        });
+                    }
+                    card.playBtn.addEventListener("click",(event)=>{
+                        event.stopPropagation();
+                        console.log(event);
+                        event.target.playAll();
+                    })
+                    document.querySelector(".albums").appendChild(card);
+                };
+                
+            }else{
+                for (el of data) {
+                    let card = createAlbumCard(el);
+                    card.addEventListener("click",()=>{
+                        location.pathname=card.href;
+                    })
+                    card.playBtn.album_name=el;
+                    card.playBtn.playAll=function(){
+                        console.log("called")
+                        fetch(`/api/album/${this.album_name}`).then(response => response.json()).then(data => {
+                           location.href = `/player?song=${encodeURIComponent(data[0].id)}&album=${encodeURIComponent(data[0].album)}`;
+                        });
+                    }
+                    card.playBtn.addEventListener("click",(event)=>{
+                        event.stopPropagation();
+                        event.target.playAll();
+                    })
+                    document.querySelector(".albums").appendChild(card);
+                };
+            }
+        
         });
 
         window.parent["album_page"] = document;
         window.parent.addEventListener("load", () => {
             console.log("from index.html", window.parent.document.body.style.background);
-            document.body.style.background = window.parent.document.body.style.background;
+            document.body.style.setProperty('--bg-url', `url('${window.parent.bg_img || "/static/image.jpeg"}')`);
+            // document.body.style.background = window.parent.document.body.style.background;
         });
-        document.body.style.background = window.parent.document.body.style.background;
+        document.body.style.setProperty('--bg-url', `url('${window.parent.bg_img || "/static/image.jpeg"}')`);
+        // document.body.style.background = window.parent.document.body.style.background;
+
 
     </script>
     <style>
@@ -132,28 +174,6 @@
             background-color: rgba(122, 122, 122, 0.164);
         }
 
-        .album {
-            display: flex;
-            width: 120px;
-            background-color: rgba(93, 93, 94, 0.329);
-            border-radius: 5px;
-            height: 150px;
-            flex-direction: column;
-            overflow: hidden;
-        }
-
-
-        .album>div {
-            color: rgb(110, 106, 106);
-            font-size: 13px;
-            width: 100%;
-            white-space: nowrap;
-            height: 15px;
-            overflow: hidden;
-            margin-bottom: 2px;
-            text-align: center;
-            text-overflow: ellipsis;
-        }
 
 
         * -webkit-scrollbar {
@@ -170,23 +190,7 @@
             background-color: rgb(40, 36, 43);
         }
 
-        .bar {
-            background-color: black;
-            width: 100%;
-            position: fixed;
-            display: flex;
-            align-items: flex-start;
-            justify-content: space-around;
-            bottom: 0;
-            height: 50px;
-        }
 
-        .bar>* {
-            background: none;
-            border: none;
-            height: 100%;
-            display: flex;
-        }
     </style>
     <div class="bar">
         <a id="home" href="/">

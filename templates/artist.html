@@ -10,6 +10,9 @@
     <meta name="apple-mobile-web-app-title" content="Music Player">
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" type="image/svg+xml" href="/icon.svg">
+    <link rel="stylesheet" href="/static/contextmenu.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/static/bar.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/static/background.css" type="text/css" media="all" />
     <title>Document</title>
 </head>
 
@@ -45,12 +48,17 @@
             };
         });
 
-        window.parent["album_page"] = document;
+        
+        
+        
+        window.parent["home_page"] = document;
         window.parent.addEventListener("load", () => {
             console.log("from index.html", window.parent.document.body.style.background);
-            document.body.style.background = window.parent.document.body.style.background;
+            document.body.style.setProperty('--bg-url', `url('${window.parent.bg_img || "/static/image.jpeg"}')`);
+            // document.body.style.background = window.parent.document.body.style.background;
         });
-        document.body.style.background = window.parent.document.body.style.background;
+        document.body.style.setProperty('--bg-url', `url('${window.parent.bg_img || "/static/image.jpeg"}')`);
+        // document.body.style.background = window.parent.document.body.style.background;
 
     </script>
     <style>
@@ -176,23 +184,6 @@
             background-color: rgb(40, 36, 43);
         }
 
-        .bar {
-            background-color: black;
-            width: 100%;
-            position: fixed;
-            display: flex;
-            align-items: flex-start;
-            justify-content: space-around;
-            bottom: 0;
-            height: 50px;
-        }
-
-        .bar>* {
-            background: none;
-            border: none;
-            height: 100%;
-            display: flex;
-        }
     </style>
     <div class="bar">
         <a id="home" href="/">
