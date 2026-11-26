@@ -1,0 +1,110 @@
+    <script>
+        const menu_template = document.getElementById("context-menu-template");
+        let open_menu = null;
+
+        function close_menu() {
+            if (open_menu) {
+                open_menu.style.display = "none";
+                open_menu = null;
+            }
+        }
+        document.addEventListener("click", close_menu);
+        window.addEventListener("scroll", close_menu, true); // true also catches the scrolling .tracks row
+
+        function attach_context_menu(card) {
+            const menu = menu_template.content.firstElementChild.cloneNode(true);
+            card.appendChild(menu);
+
+            // clicks inside the menu must not trigger the card's own click (which plays the song)
+            menu.addEventListener("click", (e) => e.stopPropagation());
+            menu.addEventListener("contextmenu", (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+            });
+
+            // same wiring as before: button -> method on the card
+            menu.querySelectorAll("button[data-action]").forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    close_menu();
+                    const fn = card[btn.dataset.action];
+                    if (fn) fn.call(card);
+                });
+            });
+
+            card.addEventListener("contextmenu", (event) => {
+                event.preventDefault();
+                close_menu();
+                menu.style.display = "block"; // must be visible to measure it
+                const x = Math.min(event.clientX, window.innerWidth - menu.offsetWidth);
+                const y = Math.min(event.clientY, window.innerHeight - menu.offsetHeight);
+                menu.style.left = `${x}px`;
+                menu.style.top = `${y}px`;
+                open_menu = menu;
+            });
+        }
+
+        let l = "api/tracks";
+        fetch(l).then(response => response.json()).then(data => {
+            let n = 0;
+            if (window.self != window.top) {
+                for (el of data) {
+                    if (n >= 52) break;
+                    let id = el["id"];
+                    let card = createTrackCard(el, { includeInfo: true });
+
+                    card.play = function () { this.click(); };
+                    card.queue = function () { window.parent.add_queue(this.info); };
+                    card.play_next = function () { window.parent.add_next(this.info); };
+                    card.go_album = function () { location.href = `/album-page/${this.info["album"]}`; };
+                    card.go_artist = function () { /* not implemented yet, same as before */ };
+
+                    card.addEventListener("click", () => {
+                        window.parent.route_parent(id);
+                        window.parent.fetch_metadata(id);
+                    });
+
+                    attach_context_menu(card);
+                    document.querySelector(".tracks").appendChild(card);
+                    n++;
+                };
+                return;
+            }
+            for (el of data) {
+                if (n >= 52) {
+                    break;
+                }
+                let id = el["id"];
+                let card = createTrackCard(el, {
+                    element: "a",
+                    href: `/player?song=${id}`,
+                    target: "_parent"
+                });
+                card.addEventListener("contextmenu", (event) => {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    console.log("context ");
+                });
+                document.querySelector(".tracks").appendChild(card);
+                n++;
+            };
+
+        })
+
+        fetch("/api/album").then(response => response.json()).then(data => {
+            for (el of data) {
+                let card = createAlbumCard(el);
+                document.querySelector(".albums").appendChild(card);
+            };
+        });
+
+        window.parent["home_page"] = document;
+        window.parent.addEventListener("load", () => {
+            console.log("from index.html", window.parent.document.body.style.background);
+            document.body.style.setProperty('--bg-url', `url('${window.parent.bg_img || "/static/image.jpeg"}')`);
+            // document.body.style.background = window.parent.document.body.style.background;
+        });
+        document.body.style.setProperty('--bg-url', `url('${window.parent.bg_img || "/static/image.jpeg"}')`);
+        // document.body.style.background = window.parent.document.body.style.background;
+
+
+    </script>

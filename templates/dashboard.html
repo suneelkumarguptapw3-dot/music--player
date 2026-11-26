@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Database Dashboard</title>
+<style>
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:#172033;background:#f4f6fb;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0}.app{max-width:1440px;margin:auto;padding:28px}
+header{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:22px}
+h1{font-size:25px;margin:0 0 5px}.muted{color:#667085;font-size:13px}
+button,select,input,textarea{font:inherit}button{border:0;border-radius:9px;padding:10px 14px;cursor:pointer;font-weight:600}
+.primary{background:#315ee8;color:white}.secondary{background:#e9edf7;color:#26334d}.danger{background:#fee8e7;color:#a52620}.small{padding:6px 9px;font-size:12px}
+.layout{display:grid;grid-template-columns:245px minmax(0,1fr);gap:20px}
+.panel,.main{background:white;border:1px solid #e7eaf1;border-radius:14px;box-shadow:0 4px 18px #26334d08}
+.panel{padding:16px;height:max-content}.panel h2{font-size:14px;margin:2px 0 12px}
+.table-list{display:grid;gap:7px}.table-choice{width:100%;text-align:left;background:transparent;color:#344054;padding:11px;border-radius:8px;display:flex;justify-content:space-between}
+.table-choice.active{background:#edf2ff;color:#244bd0}.count{font-size:12px;color:#667085}
+.main{min-width:0;padding:20px}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.toolbar h2{font-size:19px;margin:0 0 4px}.actions{display:flex;gap:8px;flex-wrap:wrap}
+.search{border:1px solid #d9deea;border-radius:9px;padding:10px 12px;min-width:220px}
+.table-wrap{overflow:auto;border:1px solid #edf0f5;border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:13px;white-space:nowrap}
+th,td{padding:12px 13px;text-align:left;border-bottom:1px solid #edf0f5;max-width:280px;overflow:hidden;text-overflow:ellipsis}
+th{background:#f8f9fc;color:#667085;font-weight:650;position:sticky;top:0}
+tr:last-child td{border-bottom:0}tbody tr:hover{background:#fafbff}
+.row-actions{display:flex;gap:6px}.empty{text-align:center;color:#667085;padding:40px}
+.footer{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:14px;color:#667085;font-size:13px}
+.pager{display:flex;gap:7px}.status{margin:12px 0 0;font-size:13px;min-height:18px}.status.error{color:#b42318}.status.ok{color:#067647}
+dialog{border:0;border-radius:15px;padding:0;width:min(650px,calc(100% - 28px));max-height:88vh;box-shadow:0 20px 70px #10182840}
+dialog::backdrop{background:#10182880}.modal-head,.modal-foot{padding:17px 20px;border-bottom:1px solid #edf0f5;display:flex;justify-content:space-between;align-items:center}
+.modal-head h3{margin:0;font-size:18px}.modal-body{padding:18px 20px;overflow:auto;max-height:62vh}
+.modal-foot{border-top:1px solid #edf0f5;border-bottom:0;justify-content:flex-end;gap:8px}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:grid;gap:6px}.field.full{grid-column:1/-1}
+.field label{font-size:12px;font-weight:650;color:#475467}.field input,.field textarea{width:100%;border:1px solid #d0d5dd;border-radius:8px;padding:10px;background:white;color:#172033}
+.field textarea{min-height:85px;resize:vertical}.field input:disabled{background:#f2f4f7;color:#667085}
+@media(max-width:760px){.app{padding:15px}.layout{grid-template-columns:1fr}.panel{padding:12px}.table-list{grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}.main{padding:14px}.fields{grid-template-columns:1fr}.field.full{grid-column:auto}header{align-items:flex-start}}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div><h1>Database Dashboard</h1><div class="muted">Browse, create, edit and delete database records</div></div>
+    <button class="secondary" id="refreshAll">↻ Refresh</button>
+  </header>
+  <div class="layout">
+    <aside class="panel">
+      <h2>DATABASE TABLES</h2>
+      <div class="table-list" id="tableList"><div class="muted">Loading tables…</div></div>
+    </aside>
+    <main class="main">
+      <div class="toolbar">
+        <div><h2 id="tableTitle">Select a table</h2><div class="muted" id="tableMeta">Choose a table to view its records</div></div>
+        <div class="actions">
+          <input class="search" id="search" type="search" placeholder="Search loaded records…" aria-label="Search records" hidden>
+          <button class="primary" id="addBtn" disabled>＋ Add record</button>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table><thead id="thead"></thead><tbody id="tbody"><tr><td class="empty">Select a table from the left.</td></tr></tbody></table>
+      </div>
+      <div class="footer">
+        <span id="pageInfo">—</span>
+        <div class="pager"><button class="secondary small" id="prevBtn" disabled>Previous</button><button class="secondary small" id="nextBtn" disabled>Next</button></div>
+      </div>
+      <div class="status" id="status" role="status" aria-live="polite"></div>
+    </main>
+  </div>
+</div>
+
+<dialog id="recordDialog">
+  <form id="recordForm">
+    <div class="modal-head"><h3 id="dialogTitle">Add record</h3><button type="button" class="secondary small" id="closeDialog" aria-label="Close">✕</button></div>
+    <div class="modal-body"><div class="fields" id="formFields"></div></div>
+    <div class="modal-foot"><button type="button" class="secondary" id="cancelBtn">Cancel</button><button type="submit" class="primary" id="saveBtn">Save record</button></div>
+  </form>
+</dialog>
+
+<script>
+(() => {
+  // Change this if your Flask API is hosted on another origin.
+  const API_URL = "/api/dashboard";
+  const PAGE_SIZE = 100;
+
+  const $ = id => document.getElementById(id);
+  const state = { tables:{}, table:null, columns:[], rows:[], offset:0, limit:PAGE_SIZE, total:null, mode:"create", editingId:null, pk:null };
+  const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+  const setStatus = (message, type="") => { $("status").textContent=message; $("status").className="status "+type; };
+
+  async function api(method, params={}, body) {
+    const url = new URL(API_URL, window.location.href);
+    Object.entries(params).forEach(([k,v]) => { if(v !== undefined && v !== null) url.searchParams.set(k,v); });
+    const options = {method, headers:{}};
+    if(body !== undefined){ options.headers["Content-Type"]="application/json"; options.body=JSON.stringify(body); }
+    const response = await fetch(url, options);
+    const payload = await response.json().catch(() => ({}));
+    if(!response.ok) throw new Error(payload.error || `Request failed (${response.status})`);
+    return payload;
+  }
+
+  async function loadOverview() {
+    try {
+      state.tables = await api("GET");
+      renderTableList();
+      const names = Object.keys(state.tables);
+      if(!names.length){ $("tableList").innerHTML='<div class="muted">No allowed tables found.</div>'; return; }
+      if(state.table && state.tables[state.table]) await selectTable(state.table);
+      else await selectTable(names[0]);
+    } catch(error) { setStatus(error.message,"error"); $("tableList").textContent="Could not load tables."; }
+  }
+
+  function renderTableList() {
+    const list=$("tableList"); list.replaceChildren();
+    Object.entries(state.tables).forEach(([name,info])=>{
+      const button=document.createElement("button");
+      button.className="table-choice"+(name===state.table?" active":"");
+      const label=document.createElement("span"); label.textContent=name;
+      const count=document.createElement("span"); count.className="count"; count.textContent=info.count;
+      button.append(label,count); button.addEventListener("click",()=>selectTable(name)); list.append(button);
+    });
+  }
+
+  async function selectTable(name) {
+    state.table=name; state.offset=0; state.rows=[]; state.columns=[];
+    renderTableList(); $("tableTitle").textContent=name; $("tableMeta").textContent="Loading records…";
+    $("addBtn").disabled=false; $("search").hidden=false; $("search").value="";
+    await loadRows();
+  }
+
+  function guessPrimaryKey(columns) {
+    return columns.find(c=>c.toLowerCase()==="id") || columns[0] || null;
+  }
+
+  async function loadRows() {
+    if(!state.table) return;
+    setStatus("Loading records…");
+    try {
+      const result=await api("GET",{table:state.table,limit:state.limit,offset:state.offset});
+      state.columns=result.columns||[]; state.rows=result.rows||[]; state.limit=result.limit||PAGE_SIZE;
+      state.pk=guessPrimaryKey(state.columns);
+      renderRows();
+      const overview=state.tables[state.table];
+      $("tableMeta").textContent=`${overview?.count ?? state.rows.length} total records · ${state.columns.length} columns`;
+      $("pageInfo").textContent=`Showing ${state.rows.length ? state.offset+1 : 0}–${state.offset+state.rows.length}`;
+      $("prevBtn").disabled=state.offset===0;
+      $("nextBtn").disabled=state.rows.length<state.limit;
+      setStatus("");
+    } catch(error) { setStatus(error.message,"error"); $("tbody").innerHTML='<tr><td class="empty">Unable to load records.</td></tr>'; }
+  }
+
+  function renderRows() {
+    const head=$("thead"); head.replaceChildren();
+    const headerRow=document.createElement("tr");
+    state.columns.forEach(col=>{const th=document.createElement("th"); th.textContent=col; headerRow.append(th);});
+    const actionTh=document.createElement("th"); actionTh.textContent="Actions"; headerRow.append(actionTh); head.append(headerRow);
+
+    const body=$("tbody"); body.replaceChildren();
+    const query=$("search").value.trim().toLowerCase();
+    const filtered=state.rows.filter(row=>!query || row.some(value=>String(value??"").toLowerCase().includes(query)));
+    if(!filtered.length){const tr=document.createElement("tr"),td=document.createElement("td");td.colSpan=state.columns.length+1;td.className="empty";td.textContent=state.rows.length?"No matching records on this page.":"This table has no records yet.";tr.append(td);body.append(tr);return;}
+    filtered.forEach(values=>{
+      const tr=document.createElement("tr");
+      values.forEach(value=>{const td=document.createElement("td");td.textContent=value===null?"NULL":String(value);td.title=value===null?"NULL":String(value);tr.append(td);});
+      const actions=document.createElement("td"),wrap=document.createElement("div");wrap.className="row-actions";
+      const edit=document.createElement("button");edit.className="secondary small";edit.textContent="Edit";edit.addEventListener("click",()=>openEdit(values));
+      const del=document.createElement("button");del.className="danger small";del.textContent="Delete";del.addEventListener("click",()=>deleteRecord(values));
+      wrap.append(edit,del);actions.append(wrap);tr.append(actions);body.append(tr);
+    });
+  }
+
+  function openCreate() {
+    state.mode="create"; state.editingId=null;
+    $("dialogTitle").textContent="Add record"; $("saveBtn").textContent="Create record";
+    buildFields(Object.fromEntries(state.columns.map(c=>[c,""])),true);
+    $("recordDialog").showModal();
+  }
+
+  function openEdit(values) {
+    if(!state.pk){setStatus("Cannot edit: no columns available.","error");return;}
+    const record=Object.fromEntries(state.columns.map((c,i)=>[c,values[i]]));
+    state.mode="edit"; state.editingId=record[state.pk];
+    $("dialogTitle").textContent="Edit record"; $("saveBtn").textContent="Save changes";
+    buildFields(record,false); $("recordDialog").showModal();
+  }
+
+  function buildFields(record,creating) {
+    const container=$("formFields");container.replaceChildren();
+    state.columns.forEach(column=>{
+      const isPk=column===state.pk;
+      if(creating && isPk) return; // Let SQLite generate the key.
+      const field=document.createElement("div");field.className="field";
+      const label=document.createElement("label");label.textContent=column;label.htmlFor="field_"+column;
+      const value=record[column];
+      const useArea=typeof value==="string" && value.length>100;
+      const input=document.createElement(useArea?"textarea":"input");
+      input.id="field_"+column;input.name=column;
+      if(!useArea) input.type="text";
+      input.value=value===null?"":String(value);
+      input.dataset.originalNull=value===null?"true":"false";
+      if(isPk && !creating){input.disabled=true;input.title="Primary key cannot be changed";}
+      field.append(label,input);container.append(field);
+    });
+    if(creating && state.pk){
+      const note=document.createElement("div");note.className="muted field full";note.textContent=`${state.pk} is omitted so SQLite can generate it.`;container.append(note);
+    }
+  }
+
+  function readForm() {
+    const data={};
+    state.columns.forEach(column=>{
+      if(column===state.pk && state.mode==="edit") return;
+      const input=$("recordForm").elements.namedItem(column);
+      if(!input || input.disabled) return;
+      const raw=input.value;
+      data[column]=(raw==="" && input.dataset.originalNull==="true")?null:raw;
+    });
+    return data;
+  }
+
+  async function saveRecord(event) {
+    event.preventDefault();
+    const data=readForm();
+    $("saveBtn").disabled=true;
+    try {
+      if(state.mode==="create") await api("POST",{table:state.table},data);
+      else await api("PATCH",{table:state.table,id:state.editingId},data);
+      $("recordDialog").close();setStatus(state.mode==="create"?"Record created.":"Record updated.","ok");
+      await loadOverview();
+    } catch(error){setStatus(error.message,"error");}
+    finally{$("saveBtn").disabled=false;}
+  }
+
+  async function deleteRecord(values) {
+    const record=Object.fromEntries(state.columns.map((c,i)=>[c,values[i]]));
+    const id=record[state.pk];
+    if(id===undefined || id===null){setStatus("Cannot delete: primary-key value is unavailable.","error");return;}
+    if(!window.confirm(`Delete this record (${state.pk}: ${id})? This cannot be undone.`)) return;
+    try {await api("DELETE",{table:state.table,id});setStatus("Record deleted.","ok");await loadOverview();}
+    catch(error){setStatus(error.message,"error");}
+  }
+
+  $("addBtn").addEventListener("click",openCreate);
+  $("recordForm").addEventListener("submit",saveRecord);
+  $("closeDialog").addEventListener("click",()=>$("recordDialog").close());
+  $("cancelBtn").addEventListener("click",()=>$("recordDialog").close());
+  $("refreshAll").addEventListener("click",loadOverview);
+  $("prevBtn").addEventListener("click",()=>{state.offset=Math.max(0,state.offset-state.limit);loadRows();});
+  $("nextBtn").addEventListener("click",()=>{state.offset+=state.limit;loadRows();});
+  $("search").addEventListener("input",renderRows);
+  loadOverview();
+})();
+</script>
+</body>
+</html>
