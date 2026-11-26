@@ -58,8 +58,8 @@ def download_audio(url):
         "fragment_retries": 5,
         "extractor_retries": 3,
         "sleep_interval": 2,
-        "max_sleep_interval": 5,
-        "ratelimit": 500 * 1024,
+        "max_sleep_interval": 2,
+        "ratelimit": 2000 * 1024,
     }
 
     with yt_dlp.YoutubeDL(options) as ydl:
@@ -154,10 +154,9 @@ def download_lyrics(video_id, title, artists, duration):
             params=params,
             timeout=20
         )
-
+        
         response.raise_for_status()
         results = response.json()
-
         best_lyrics = ""
         best_difference = float("inf")
 

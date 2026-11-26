@@ -10,30 +10,42 @@ from pathlib import Path
 PROJECT_DIR = Path(__file__).resolve().parent
 AUDIO_DIR = PROJECT_DIR / "audio"
 ALBUMS_DIR = PROJECT_DIR / "albums"
+ALBUMS_DIR2 = PROJECT_DIR / "albums360"
 VIDEOS_DIR = PROJECT_DIR / "videos"
 LYRICS_DIR = PROJECT_DIR / "lyrics"
 DATABASE_PATH = PROJECT_DIR / "data.db"
 
 def save_thumbnail(video_id, albumname):
     ALBUMS_DIR.mkdir(parents=True, exist_ok=True)
- #https://i.ytimg.com/vi_webp/9MaV5vwzxTQ/hq720.webp
+    ALBUMS_DIR2.mkdir(parents=True, exist_ok=True)
     url = f"https://i.ytimg.com/vi_webp/{video_id}/hq720.webp"
     path = ALBUMS_DIR / f"{albumname}.webp"
-    url2 = f"https://i.ytimg.com/vi_webp/{video_id}/sddefault.webp"
+    url2 = f"https://i.ytimg.com/vi_webp/{video_id}/sd2.webp"
+    path2 = ALBUMS_DIR2 / f"{albumname}.webp"
     
+    saved_paths = []
     try:
         response = requests.get(url, timeout=15)
         response.raise_for_status()
-
-        if not response.headers.get("Content-Type", "").startswith("image/"):
-            return None
-
-        with open(path, "wb") as f:
-            f.write(response.content)
-        return str(path)
+        if response.headers.get("Content-Type", "").startswith("image/"):
+            with open(path, "wb") as f:
+                f.write(response.content)
+            saved_paths.append(str(path))
     except requests.RequestException as e:
-        print(f"Thumbnail error: {e}")
-        return None
+        print(f"HQ Thumbnail error: {e}")
+        
+    try:
+        response = requests.get(url2, timeout=15)
+        response.raise_for_status()
+        if response.headers.get("Content-Type", "").startswith("image/"):
+            with open(path2, "wb") as f:
+                f.write(response.content)
+            saved_paths.append(str(path2))
+    except requests.RequestException as e:
+        print(f"SD Thumbnail error: {e}")    
+
+    # Returns the list of successfully saved paths, or None if both failed
+    return saved_paths if saved_paths else None
 
 lrc_api="https://lrclib.net/api/search"
 def download_video(url, file_name):
@@ -85,9 +97,6 @@ def search_video(query, file_name):
 
         url = f"https://www.youtube.com/watch?v={video_id}"
 
-        print("Selected:", entry.get("title"))
-        print("URL:", url)
-
         download_video(url, file_name)
         return 0
 def init_db():
@@ -100,12 +109,12 @@ def init_db():
             audio_id TEXT NOT NULL,  
             title TEXT NOT NULL,  
             duration INT NOT NULL,  
-            album TEXT NOT NULL,  
+            album TEXT NOT NULL,
+            views INTEGER DEFAULT 0,  
             artists TEXT NOT NULL, 
             is_liked BOOLEAN DEFAULT 0
         )  
     """) 
-
     cursor.execute("""  
         CREATE TABLE IF NOT EXISTS artists (  
             id INTEGER PRIMARY KEY AUTOINCREMENT,  
@@ -113,6 +122,39 @@ def init_db():
             audio_id TEXT NOT NULL  
         )  
     """) 
+
+    cursor.execute("""
+            CREATE TABLE IF NOT EXISTS users (
+                id TEXT PRIMARY KEY,
+                username TEXT NOT NULL COLLATE NOCASE UNIQUE,
+                password_hash TEXT NOT NULL,
+                created_at INTEGER NOT NULL,
+                last_seen INTEGER NOT NULL,
+                visits INTEGER NOT NULL DEFAULT 1,
+                is_guest INTEGER NOT NULL DEFAULT 1,
+                session_id TEXT
+            )
+        """)
+
+    user_columns = {row[1] for row in conn.execute("PRAGMA table_info(users)")}
+    if "is_guest" not in user_columns:
+        conn.execute("ALTER TABLE users ADD COLUMN is_guest INTEGER NOT NULL DEFAULT 1")
+    if "session_id" not in user_columns:
+        conn.execute("ALTER TABLE users ADD COLUMN session_id TEXT")
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS user_views (
+            user_name TEXT NOT NULL,
+            audio_id TEXT NOT NULL,
+            last_viewed INTEGER NOT NULL,
+            frequency INTEGER NOT NULL DEFAULT 1,
+            PRIMARY KEY (user_name, audio_id),
+            FOREIGN KEY (audio_id)
+                REFERENCES music(audio_id)
+                ON DELETE CASCADE
+        )
+    """)
+    cursor.execute("PRAGMA foreign_keys = ON")
     conn.commit()  
     conn.close() 
 
@@ -147,25 +189,19 @@ def get_dev(a,b):
 
 def write_save_lrc(I,p,duration):
     response = requests.get(lrc_api, params=p)
-    print("--------------",response.status_code)
     if response.status_code == 429 or response.status_code == 503:
-        print("Rate limited (429). Skipping lyrics.")
         return 1
     if response.status_code == 503:
-        print("LRCLIB server overloaded. Skipping lyrics.")
         return 1
     if response.status_code != 200:
-        print("HTTP error:", response.status_code)
         return 1
     try:
         js = response.json()
     except requests.exceptions.JSONDecodeError:
-        print("Invalid JSON response")
         return 1
     dev = 14324
     lrc = ""
     if not isinstance(js, list):
-        print("Unexpected JSON format")
         return 1
 
     for o in js:
@@ -176,13 +212,6 @@ def write_save_lrc(I,p,duration):
             dur2 = 0
 
         d = abs(duration - dur2)
-        print(
-            "duration:", duration,
-            "duration from lrc:", dur2,
-            "dev:", d,
-            "\nlrc:", o.get("syncedLyrics"),
-            "\n"
-        )
         synced = o.get("syncedLyrics")
         if synced and d < dev:
             dev = d
@@ -193,18 +222,11 @@ def write_save_lrc(I,p,duration):
     with open(LYRICS_DIR / f"{I}.lrc", "w", encoding="utf-8") as f:
         f.write(lrc)
         return 0
-        print("duration:", duration, "dev:", dev)
 
 
 def after_download(info,is_search_video=True):
     conn=sqlite3.connect(DATABASE_PATH)
     cursor=sqlite3.Cursor(conn)
-    print(info.keys())
-    print("\n"*4)
-    print("Title:", info.get("title"))
-    print("ID:", info.get("id"))
-    print("Duration:", info.get("duration"))
-    print("Artist" ,info.get("artist"))
     p = {  
         "track_name": info.get("title"),  
         "artist_name": info.get("artists")[0]  
@@ -252,8 +274,8 @@ def after_download(info,is_search_video=True):
         except Exception as e:
             print("Lyrics error:", e)
     print("23444&&_54&6+&;-&")
-    if is_search_video==True:
-        search_video(title,I)
+    if is_search_video:
+        search_video(title+" video",I)
 
 
 def download_song(url,is_search_video=True):
@@ -313,15 +335,12 @@ def restore_missing_audio():
         url = f"https://youtube.com/watch?v={audio_id}"
 
         try:
-            print("Downloading:", url)
             download_song(url,False)
 
             if audio_path.exists() and audio_path.stat().st_size > 0:
                 downloaded += 1
-                print("Download successful.")
             else:
                 failed += 1
-                print("Download failed or output file missing.")
 
         except Exception as e:
             failed += 1
@@ -353,4 +372,3 @@ def start_audio_restore():
     )
 
     _restore_thread.start()
-start_audio_restore()
