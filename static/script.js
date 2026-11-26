@@ -121,7 +121,6 @@ function matchImageSideBars(img) {
     }
 
     const hasSideBars = imageRatio < boxRatio;
-    //element.style=`background-color:${leftColor}`;
 
     element.style.background = `linear-gradient(
         to top,
@@ -137,13 +136,8 @@ function matchImageSideBars(img) {
         color-mix(in srgb, ${leftColor} 30%, rgb(17, 16, 16))
         )`;
 
-
-    document.getElementById("emm").style.background = `linear-gradient(
-        to top left,
-        color-mix(in srgb, ${leftColor} 6%, rgb(20, 19, 19)),
-        color-mix(in srgb, ${leftColor} 30%, rgb(17, 16, 16))
-        )`;
     setPWAColor(leftColor);
+
     const bgI = `url("${imageUrl}")`;
     bg_img_cont.style.backgroundColor = leftColor;
     bg_img_cont.style.backgroundImage = bgI;
@@ -152,27 +146,25 @@ function matchImageSideBars(img) {
         color-mix(in srgb,${leftColor} 15%, black) 10%,
         ${leftColor} 100%
     )`;
+
     overlay.style.opacity = "0.8";
+
+
+    window.bg_img = imageUrl;
     if (window["home_page"]) {
-        window["home_page"].body.style.background = `linear-gradient(
-        to top left,
-        color-mix(in srgb, ${leftColor} 6%, rgb(20, 19, 19)),
-        color-mix(in srgb, ${leftColor} 30%, rgb(17, 16, 16))
-        )`;
+        window.home_page.body.style.setProperty('--bg-url', `url('${imageUrl}')`);
+
+
     }
     if (window["track_page"]) {
-        window["track_page"].body.style.background = `linear-gradient(
-        to top left,
-        color-mix(in srgb, ${leftColor} 6%, rgb(20, 19, 19)),
-        color-mix(in srgb, ${leftColor} 30%, rgb(17, 16, 16))
-        )`;
+        window.track_page.body.style.setProperty('--bg-url', `url('${imageUrl}')`);
+    }
+    if (window["you_page"]) {
+        window.you_page.body.style.setProperty('--bg-url', `url('${imageUrl}')`);
     }
     if (window["artist_page"]) {
-        window["artist_page"].body.style.background = `linear-gradient(
-        to top left,
-        color-mix(in srgb, ${leftColor} 6%, rgb(20, 19, 19)),
-        color-mix(in srgb, ${leftColor} 30%, rgb(17, 16, 16))
-        )`;
+        window.artist_page.body.style.setProperty('--bg-url', `url('${imageUrl}')`);
+
     }
 
     return {
@@ -209,6 +201,7 @@ window.add_queue = function (el) {
         card["info"] = el;
         card.id = id;
         card["delete"] = function () {
+            console.log("deleted")
             this.parentElement.removeChild(this);
         }
         card.addEventListener("click", () => {
@@ -226,7 +219,7 @@ window.add_queue = function (el) {
         const c = document.createElement("button");
         c.addEventListener("click", (e) => {
             e.stopPropagation();
-            console.log(e.currentTarget.m.delete());
+            e.currentTarget.m.delete();
         })
         c.innerHTML = delete_svg;
         c["m"] = card;
@@ -262,7 +255,7 @@ window.add_next = function (el) {
         const c = document.createElement("button");
         c.addEventListener("click", (e) => {
             e.stopPropagation();
-            console.log(e.currentTarget.m.delete());
+            e.currentTarget.m.delete();
         })
         c.innerHTML = delete_svg;
         c["m"] = card;
@@ -272,6 +265,7 @@ window.add_next = function (el) {
         document.querySelector(".playing").insertAdjacentElement("afterend", document.getElementById(el.id));
     }
 }
+
 async function init_queue() {
     if (queue_inited) {
         return;
@@ -291,6 +285,9 @@ async function init_queue() {
     const data = await response.json();
     const d = data.slice(0, 40);
     for (const el of d) {
+        if (document.getElementById(el.id)) {
+            continue
+        }
         const card = document.createElement("div");
         card.className = "track";
         card.draggable = true;
@@ -317,7 +314,7 @@ async function init_queue() {
         const c = document.createElement("button");
         c.addEventListener("click", (e) => {
             e.stopPropagation();
-            console.log(e.currentTarget.m.delete());
+            e.currentTarget.m.delete();
         })
         c.innerHTML = delete_svg;
         c["m"] = card;
@@ -326,12 +323,39 @@ async function init_queue() {
     }
     queue_inited = true;
 }
+function update_song_time(id, t) {
+    fetch("/api/updatesongviews", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            audio_id: id,
+            endpoint: Math.floor(t),
+            update_only: true
+        })
+    });
+}
 
 window.load_player = async function (lrc, I, el) {
-    await init_queue();
+    //await init_queue();
+    window.update_views = setTimeout(() => {
+        fetch('/api/updatesongviews', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                audio_id: I,
+                endpoint: Math.floor(audio.currentTime)
+            })
+        })
+            .then(res => res.json())
+            .then(data => console.log(data))
+            .catch(console.error);
+    }, 2000)
+
     if (!document.getElementById(I)) {
-        console.log("inted queue");
-        console.log("no element exists");
         const card = document.createElement("div");
         card.className = "track";
         const img = document.createElement("img");
@@ -359,7 +383,6 @@ window.load_player = async function (lrc, I, el) {
         const c = document.createElement("button");
         c.addEventListener("click", (e) => {
             e.stopPropagation();
-            console.log(e.currentTarget.m.delete());
         })
         c.innerHTML = delete_svg;
         c["m"] = card;
@@ -373,15 +396,21 @@ window.load_player = async function (lrc, I, el) {
             queue_cont.insertBefore(card, document.querySelector(".track"));
         }
 
-    }else{
-    
+    } else {
+        const element = document.getElementById(el.id);
+        const playing = document.querySelector(".playing");
+        if (element && playing) {
+            playing.insertAdjacentElement("afterend", element);
+        } else {
+
+        }
     }
     document.querySelectorAll(".track").forEach(e => {
         e.classList.remove("playing");
     })
     document.getElementById(I).classList.add("playing");
     lyricContainer.innerHTML = "";
-
+    await init_queue();
     prev.removeEventListener('click', play_prev_song, { once: true });
     next.removeEventListener('click', play_next_song, { once: true });
     audio.removeEventListener('ended', play_next_song, { once: true });
@@ -436,11 +465,8 @@ window.load_player = async function (lrc, I, el) {
     });
 }
 
-
-
 window.route_parent = function (I) {
     const url = new URL(window.location.href);
-    console.log(url);
     url.searchParams.set("song", I);
     history.replaceState({}, '', url);
 }
@@ -487,17 +513,15 @@ function f() {
         if (currentTime >= parseFloat(keys[i]) && currentTime < parseFloat(keys[i + 1])) {
             if (curr_idx != i) {
                 curr_idx = i;
-
                 document.querySelectorAll('.lyric').forEach(lyric => {
                     lyric.classList.remove('highlight');
                 });
-
+                let t2 = audio.currentTime
+                if (t2 > audio.duration * 0.9) {
+                    t2 = 0;
+                }
+                update_song_time(audio.audio_id, t2)
                 scrollToElement(lyricContainer, document.getElementById(i), 500)
-                //document.getElementById(i).scrollIntoView({
-                //behavior: 'smooth',
-                //block: 'center',
-                //inline: 'center'
-                //});
                 document.getElementById(i).classList.add('highlight');
             }
 
@@ -529,20 +553,39 @@ window.fetch_metadata = function (x) {
         const artist = data["artists"];
         const album = data["album"];
         const dur = data["duration"];
-        const thumb_url = data["thumbnail"];
+        const thumb_url = data["thumbnail"] + "?maxres=1";
         const audio_url = data["audio"];
         const video_url = data["video"];
+        const is_liked = data["is_liked"];
+        audio["audio_id"] = I;
+        audio["start_point"]=data["endpoint"];
+        audio.addEventListener("canplay", () => {
+            audio.currentTime =  audio.start_point ?? 0;
+        },{once:true});
+         
+        document.getElementById("like")["target_url"] = 'api/metadata/' + x;
+        if (is_liked) {
+            document.getElementById("like").firstElementChild.classList.add("active");
+        } else {
+            document.getElementById("like").firstElementChild.classList.remove("active");
+        }
+        document.getElementById("like").lastElementChild.innerText = "likes | " + data["likes"];
+        document.getElementById("views").lastElementChild.innerText = "views | " + data["views"] || 0;
         if (video_url != "na") {
+            document.querySelector("#video-toggle").classList.remove("unavailable");
             video.src = video_url;
         } else {
-
+            document.querySelector("#video-toggle").classList.add("unavailable");
         }
+
         audio.src = audio_url;
+        if (window.update_views) {
+            clearTimeout(window.update_views);
+        }
         document.getElementById('duration').textContent = formatTime(dur);
         document.getElementById("artwork-img").src = thumb_url;
         document.getElementById('song-title').textContent = decodeURIComponent(title);
         document.getElementById('artist').textContent = album;
-        console.log(lrc);
         matchImageSideBars(document.getElementById("artwork-img"))
         window.load_player(lrc, I, data);
         if ("mediaSession" in navigator) {
@@ -552,7 +595,7 @@ window.fetch_metadata = function (x) {
                 album: album || "My Music",
                 artwork: [
                     {
-                        src: thumb_url,
+                        src: thumb_url.replace("?maxres=1", ""),
                         sizes: "720x720",
                         type: "image/webp"
                     }
@@ -648,15 +691,8 @@ function minimize() {
     hide_lyrics();
     queue_cont.style.display = "none";
     player.classList.replace("player", "miniplayer");
-    console.log("1");
-    //overlay.style.display = "none";
-    //bg_img_cont.style.display = "none";
     if (!document.getElementById("emm").src) {
-        //if (!urlParams.get("album")) {
-        //document.getElementById("emm").setAttribute("src", `/album-page/${urlParams.get("album")}`);
-        // } else {
         document.getElementById("emm").setAttribute("src", "/");
-        // }
 
     }
 }
@@ -667,7 +703,6 @@ if (document.documentElement.clientHeight < document.documentElement.clientWidth
 }
 
 function maximize() {
-    //queue_cont.style.display = "flex";
     document.getElementById("player").classList.replace("miniplayer", "player");
 }
 document.getElementById("video-toggle").style.display = "none"
@@ -745,9 +780,44 @@ lyricsToggle.addEventListener('click', () => {
 })
 
 
-document.getElementById("like").addEventListener('click', () => {
-    document.querySelector("#like").firstElementChild.classList.toggle("active");
-})
+
+document.getElementById("like").addEventListener("click", (event) => {
+    const button = event.currentTarget;
+    const icon = button.firstElementChild;
+
+    icon.classList.toggle("active");
+
+    fetch(button.target_url, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            is_liked: icon.classList.contains("active")
+        })
+    })
+        .then(async res => {
+            const data = await res.json();
+
+            if (res.status === 401) {
+                alert("Please login to like this song.");
+                icon.classList.toggle("active"); // Restore previous state
+                return;
+            }
+
+            if (!res.ok) {
+                throw new Error(data.error || "Something went wrong");
+            }
+
+            button.lastElementChild.innerText =
+                "likes | " + (data.likes || 0);
+        })
+        .catch(error => {
+            alert(error.message);
+            icon.classList.toggle("active");
+        });
+});
+
 const toggleBtn = document.getElementById("toggle-queue");
 toggleBtn.addEventListener("click", (e) => {
     e.stopPropagation();
@@ -782,11 +852,6 @@ queue_cont.addEventListener("click", (e) => {
 queue_cont.firstElementChild.addEventListener("click", () => {
     queue_cont.classList.remove("queuetranslate");
 })
-
-
-
-
-
 
 
 const container = queue_cont;

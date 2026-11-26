@@ -1,5 +1,6 @@
 .album {
     display: flex;
+    position: relative;
     width: 120px;
     background-color: rgba(93, 93, 94, 0.329);
     border-radius: 5px;
@@ -25,4 +26,18 @@ img {
     object-fit: cover;
     object-position: center;
     border-radius: 2px;
+}
+.play{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    aspect-ratio: 1/1;
+    bottom: 30px;
+    right: 0;
+    border-radius: 50%;
+    background-color: rgba(120,120,120,0.2);
+    backdrop-filter: blur(3px);
+}
+.play >*{
+    pointer-events: none;
 }

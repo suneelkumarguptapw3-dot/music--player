@@ -1,0 +1,22 @@
+body {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+}
+
+button,
+a {
+    background: none;
+    border: none;
+}
+
+a {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}

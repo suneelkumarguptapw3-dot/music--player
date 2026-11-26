@@ -1,0 +1,107 @@
+a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.track {
+    border-radius: 4px;
+    display: flex;
+    height: 60px;
+    position: relative;
+    width: 300px;
+    border: 0.5px solid rgba(56, 56, 56, 0.205);
+    margin: 8px;
+    background-color: rgba(50, 52, 53, 0.288);
+    gap: 10px;
+    overflow: hidden;
+}
+.track>.progress{
+    position: absolute;
+    background-color: #3838383a;
+    height: 1px;
+    bottom:0px;
+    width: 100%;
+    
+}
+.track>.progress>div{
+    background-color: red;
+    height: 100%;
+    border: 1px solid red;
+}
+.track>div {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 40px
+}
+
+.track>div>*:nth-child(1) {
+    color: white;
+    font-size: 15px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.track>div>*:nth-child(2) {
+    color: rgb(110, 106, 106);
+    font-size: 13px;
+    width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 2px;
+}
+
+
+.album {
+    display: flex;
+    position: relative;
+    width: 120px;
+    background-color: rgba(93, 93, 94, 0.329);
+    border-radius: 5px;
+    height: 150px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.album>div {
+    color: rgb(110, 106, 106);
+    font-size: 13px;
+    width: 100%;
+    white-space: nowrap;
+    height: 15px;
+    overflow: hidden;
+    margin-bottom: 2px;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 2px;
+}
+.play{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    aspect-ratio: 1/1;
+    bottom: 30px;
+    right: 0;
+    border-radius: 50%;
+    background-color: rgba(120,120,120,0.2);
+    backdrop-filter: blur(3px);
+}
+.play >*{
+    pointer-events: none;
+}

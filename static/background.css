@@ -1,0 +1,48 @@
+        *{
+            margin:0;
+            padding: 0;
+        }
+        body::before{
+            content: "";
+            top:0;
+            background-image: var(--bg-url, url('/static/image.jpeg'));
+            height: 150vh;
+            width: 100vw;
+            position: fixed;
+            overflow: hidden;
+            z-index: -2;
+            border-radius: 5px;
+            background-size:contain;
+            
+            animation: a 20s linear 1;
+            
+            background-position-x: center;
+        }
+        @keyframes a{
+            0% , 100%{
+                background-position: bottom;
+            }
+            50%{
+                background-position: top ;
+            }
+            
+        }
+        body::after{
+            content:"";
+            position:fixed;
+            background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.55) 0%,
+    rgba(0, 0, 0, 0.55) 28%,
+    rgba(0, 0, 0, 0.99) 60%,
+    rgba(0, 0, 0, 0.99) 100%
+);
+
+            z-index: -1;
+            height: 100vh;
+            overflow: hidden;
+            border-radius: 5px;
+            width: 100vw;
+            top:0;
+            backdrop-filter: blur(80px);
+        }
